@@ -1,0 +1,16 @@
+[2013-05-13 15:26:39.557] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-13 15:26:39.708] [INFO] console - info: 'socket.io started'
+[2013-05-13 15:26:39.710] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-13 15:26:39.721] [INFO] console - [32m[2013-05-13 15:26:39.720] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-13 15:26:39.801] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-13 15:26:39.802] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-13 15:26:39.827] [INFO] console - [32m[2013-05-13 15:26:39.824] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-13 15:26:40.087] [INFO] console - [32m[2013-05-13 15:26:40.086] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-13 15:26:40.101] [INFO] console - [32m[2013-05-13 15:26:40.100] [INFO] console - [39m[32m[2013-05-13 15:26:40.099] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-13 15:26:40.141] [INFO] console - [32m[2013-05-13 15:26:40.141] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-13 15:26:40.143] [INFO] console - [32m[2013-05-13 15:26:40.143] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+

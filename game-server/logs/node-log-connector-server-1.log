@@ -1,0 +1,5 @@
+[2013-05-13 15:26:39.824] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-13 15:26:40.086] [INFO] console - info: 'socket.io started'
+[2013-05-13 15:26:40.100] [INFO] console - [32m[2013-05-13 15:26:40.099] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-13 15:26:40.141] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-13 15:26:40.143] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
