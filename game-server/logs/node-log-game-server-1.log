@@ -1,0 +1,80 @@
+[2013-05-19 17:40:35.488] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-19 17:40:35.773] [INFO] console - info: 'socket.io started'
+[2013-05-19 17:40:35.783] [INFO] console - [32m[2013-05-19 17:40:35.782] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-19 17:40:35.853] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-19 17:40:35.855] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-19 17:56:46.994] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-19 17:56:47.265] [INFO] console - info: 'socket.io started'
+[2013-05-19 17:56:47.276] [INFO] console - [32m[2013-05-19 17:56:47.276] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-19 17:56:47.347] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-19 17:56:47.348] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-19 23:01:08.970] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-19 23:01:09.238] [INFO] console - info: 'socket.io started'
+[2013-05-19 23:01:09.248] [INFO] console - [32m[2013-05-19 23:01:09.248] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-19 23:01:09.317] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-19 23:01:09.318] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 09:08:10.587] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 09:08:11.566] [INFO] console - info: 'socket.io started'
+[2013-05-20 09:08:11.577] [INFO] console - [32m[2013-05-20 09:08:11.577] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 09:08:11.638] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 09:08:11.639] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 09:48:33.969] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 09:48:34.249] [INFO] console - info: 'socket.io started'
+[2013-05-20 09:48:34.261] [INFO] console - [32m[2013-05-20 09:48:34.260] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 09:48:34.332] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 09:48:34.333] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 09:59:09.543] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 09:59:09.820] [INFO] console - info: 'socket.io started'
+[2013-05-20 09:59:09.832] [INFO] console - [32m[2013-05-20 09:59:09.831] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 09:59:09.900] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 09:59:09.901] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:00:12.310] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:00:12.580] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:00:12.591] [INFO] console - [32m[2013-05-20 10:00:12.591] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:00:12.660] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:00:12.661] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:16:56.022] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:16:56.327] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:16:56.338] [INFO] console - [32m[2013-05-20 10:16:56.337] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:16:56.410] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:16:56.411] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:20:35.493] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:20:35.762] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:20:35.773] [INFO] console - [32m[2013-05-20 10:20:35.772] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:20:35.839] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:20:35.840] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:21:47.378] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:21:47.654] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:21:47.665] [INFO] console - [32m[2013-05-20 10:21:47.665] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:21:47.733] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:21:47.734] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:27:49.274] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:27:49.543] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:27:49.554] [INFO] console - [32m[2013-05-20 10:27:49.554] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:27:49.623] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:27:49.624] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:28:28.782] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:28:29.069] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:28:29.080] [INFO] console - [32m[2013-05-20 10:28:29.080] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:28:29.152] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:28:29.154] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:30:54.974] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:30:55.237] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:30:55.248] [INFO] console - [32m[2013-05-20 10:30:55.247] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:30:55.315] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:30:55.316] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 10:38:50.316] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 10:38:50.596] [INFO] console - info: 'socket.io started'
+[2013-05-20 10:38:50.607] [INFO] console - [32m[2013-05-20 10:38:50.606] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 10:38:50.680] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 10:38:50.681] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 12:08:57.605] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 12:08:58.547] [INFO] console - info: 'socket.io started'
+[2013-05-20 12:08:58.560] [INFO] console - [32m[2013-05-20 12:08:58.559] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 12:08:58.635] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 12:08:58.636] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-20 12:22:15.650] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-20 12:22:15.965] [INFO] console - info: 'socket.io started'
+[2013-05-20 12:22:15.978] [INFO] console - [32m[2013-05-20 12:22:15.977] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-20 12:22:16.052] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-20 12:22:16.054] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start

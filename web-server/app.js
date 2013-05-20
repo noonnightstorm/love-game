@@ -1,12 +1,14 @@
 var express = require('express');
 var app = express.createServer();
+var router = require('./routes/router');
+var db = require('./db/db');
 
 app.configure(function(){
   app.use(express.methodOverride());
   app.use(express.bodyParser());
   app.use(app.router);
-  app.set('view engine', 'jade');
-  app.set('views', __dirname + '/public');
+  app.set('view engine', 'ejs');
+  app.set('views', __dirname + '/views');
   app.set('view options', {layout: false});
   app.set('basepath',__dirname + '/public');
 });
@@ -21,6 +23,13 @@ app.configure('production', function(){
   app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
   app.use(express.errorHandler());
 });
+
+/*app.get("/game/:account/:password",router.game);
+app.get("/register",router.register);
+app.get("/check_login/:account/:password",db.check_login);
+app.post("/add_user",db.add_user);*/
+app.get("/check_login/:account/:password",db.check_login);
+app.post("/add_user",db.add_user);
 
 console.log("Web server has started.\nPlease log on http://127.0.0.1:3001/index.html");
 
