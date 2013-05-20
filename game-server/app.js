@@ -1,5 +1,4 @@
 var pomelo = require('pomelo');
-
 /**
  * Init app for client.
  */
@@ -7,7 +6,7 @@ var app = pomelo.createApp();
 app.set('name', 'love-game');
 
 // app configuration
-app.configure('production|development', 'connector', function(){
+app.configure(function(){
 	app.set('connectorConfig',
 		{
 			connector : pomelo.connectors.hybridconnector,

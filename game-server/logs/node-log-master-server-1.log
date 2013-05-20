@@ -885,3 +885,1196 @@
 
 [2013-05-20 12:22:16.111] [INFO] console - [32m[2013-05-20 12:22:16.111] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
 
+[2013-05-20 14:31:49.005] [INFO] console - [32m[2013-05-20 14:31:49.005] [INFO] console - [39muser have left
+
+[2013-05-20 14:49:24.425] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 14:49:24.627] [INFO] console - info: 'socket.io started'
+[2013-05-20 14:49:24.629] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 14:49:24.637] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 14:49:24.644] [INFO] console - [32m[2013-05-20 14:49:24.643] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 14:49:25.034] [INFO] console - [32m[2013-05-20 14:49:24.760] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 14:49:25.035] [INFO] console - [32m[2013-05-20 14:49:24.764] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 14:49:25.052] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 14:49:25.052] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 14:49:25.689] [INFO] console - [32m[2013-05-20 14:49:25.688] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 14:49:25.699] [INFO] console - [32m[2013-05-20 14:49:25.699] [INFO] console - [39m[32m[2013-05-20 14:49:25.698] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 14:49:25.761] [INFO] console - [32m[2013-05-20 14:49:25.760] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 14:49:25.762] [INFO] console - [32m[2013-05-20 14:49:25.761] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 14:49:25.798] [INFO] console - [32m[2013-05-20 14:49:25.797] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 14:49:25.813] [INFO] console - [32m[2013-05-20 14:49:25.812] [INFO] console - [39m[32m[2013-05-20 14:49:25.812] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 14:49:25.860] [INFO] console - [32m[2013-05-20 14:49:25.860] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 14:49:25.862] [INFO] console - [32m[2013-05-20 14:49:25.862] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 14:49:54.337] [INFO] console - [31m[2013-05-20 14:49:54.337] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 14:54:06.139] [INFO] console - [32m[2013-05-20 14:54:06.138] [INFO] console - [39muser have left
+
+[2013-05-20 14:54:13.108] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 14:54:13.263] [INFO] console - info: 'socket.io started'
+[2013-05-20 14:54:13.266] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 14:54:13.273] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 14:54:13.281] [INFO] console - [32m[2013-05-20 14:54:13.279] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 14:54:13.363] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 14:54:13.364] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 14:54:13.409] [INFO] console - [32m[2013-05-20 14:54:13.405] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 14:54:13.415] [INFO] console - [32m[2013-05-20 14:54:13.411] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 14:54:13.686] [INFO] console - [32m[2013-05-20 14:54:13.685] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 14:54:13.697] [INFO] console - [32m[2013-05-20 14:54:13.697] [INFO] console - [39m[32m[2013-05-20 14:54:13.696] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 14:54:13.735] [INFO] console - [32m[2013-05-20 14:54:13.734] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 14:54:13.754] [INFO] console - [32m[2013-05-20 14:54:13.753] [INFO] console - [39m[32m[2013-05-20 14:54:13.752] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 14:54:13.768] [INFO] console - [32m[2013-05-20 14:54:13.768] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 14:54:13.769] [INFO] console - [32m[2013-05-20 14:54:13.769] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 14:54:13.799] [INFO] console - [32m[2013-05-20 14:54:13.797] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 14:54:13.800] [INFO] console - [32m[2013-05-20 14:54:13.800] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 14:54:23.248] [INFO] console - [31m[2013-05-20 14:54:23.247] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 14:58:29.458] [INFO] console - [32m[2013-05-20 14:58:29.457] [INFO] console - [39muser have left
+
+[2013-05-20 15:10:12.863] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:10:13.020] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:10:13.022] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:10:13.027] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:10:13.032] [INFO] console - [32m[2013-05-20 15:10:13.031] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:10:13.110] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:10:13.111] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:10:13.160] [INFO] console - [32m[2013-05-20 15:10:13.156] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:10:13.162] [INFO] console - [32m[2013-05-20 15:10:13.158] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:10:13.426] [INFO] console - [32m[2013-05-20 15:10:13.425] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:10:13.436] [INFO] console - [32m[2013-05-20 15:10:13.435] [INFO] console - [39m[32m[2013-05-20 15:10:13.435] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:10:13.486] [INFO] console - [32m[2013-05-20 15:10:13.485] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:10:13.504] [INFO] console - [32m[2013-05-20 15:10:13.504] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:10:13.504] [INFO] console - [32m[2013-05-20 15:10:13.504] [INFO] console - [39m[32m[2013-05-20 15:10:13.503] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:10:13.505] [INFO] console - [32m[2013-05-20 15:10:13.505] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:10:13.548] [INFO] console - [32m[2013-05-20 15:10:13.546] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:10:13.549] [INFO] console - [32m[2013-05-20 15:10:13.548] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:10:23.478] [INFO] console - [31m[2013-05-20 15:10:23.478] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:11:26.293] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:11:26.447] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:11:26.449] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:11:26.456] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:11:26.466] [INFO] console - [32m[2013-05-20 15:11:26.464] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:11:26.545] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:11:26.546] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:11:26.592] [INFO] console - [32m[2013-05-20 15:11:26.588] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:11:26.596] [INFO] console - [32m[2013-05-20 15:11:26.592] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:11:26.598] [INFO] console - 
+
+[2013-05-20 15:11:26.598] [INFO] console - /home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:24
+
+[2013-05-20 15:11:26.598] [INFO] console - 			game : pomelo.games.hybridconnector,
+			                   ^
+
+[2013-05-20 15:11:26.603] [INFO] console - TypeError: Cannot read property 'hybridconnector' of undefined
+    at Object.<anonymous> (/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:24:23)
+    at Object.Application.configure (/usr/lib/node_modules/pomelo/lib/application.js:398:10)
+    at Object.<anonymous> (/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:19:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+[2013-05-20 15:11:26.606] [ERROR] console - FAILED TO RUN, return code: 8
+[2013-05-20 15:11:26.859] [INFO] console - [32m[2013-05-20 15:11:26.858] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:11:26.874] [INFO] console - [32m[2013-05-20 15:11:26.874] [INFO] console - [39m[32m[2013-05-20 15:11:26.873] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:11:26.915] [INFO] console - [32m[2013-05-20 15:11:26.914] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:11:26.917] [INFO] console - [32m[2013-05-20 15:11:26.917] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:11:41.377] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:11:41.533] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:11:41.536] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:11:41.541] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:11:41.548] [INFO] console - [32m[2013-05-20 15:11:41.546] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:11:41.628] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:11:41.629] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:11:41.676] [INFO] console - [32m[2013-05-20 15:11:41.672] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:11:41.679] [INFO] console - [32m[2013-05-20 15:11:41.675] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:11:41.680] [INFO] console - 
+
+[2013-05-20 15:11:41.680] [INFO] console - /home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:24
+
+[2013-05-20 15:11:41.681] [INFO] console - 			game : pomelo.games.hybridgame,
+			                   ^
+
+[2013-05-20 15:11:41.685] [INFO] console - TypeError: Cannot read property 'hybridgame' of undefined
+    at Object.<anonymous> (/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:24:23)
+    at Object.Application.configure (/usr/lib/node_modules/pomelo/lib/application.js:398:10)
+    at Object.<anonymous> (/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js:19:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+[2013-05-20 15:11:41.688] [ERROR] console - FAILED TO RUN, return code: 8
+[2013-05-20 15:11:41.940] [INFO] console - [32m[2013-05-20 15:11:41.939] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:11:41.954] [INFO] console - [32m[2013-05-20 15:11:41.954] [INFO] console - [39m[32m[2013-05-20 15:11:41.953] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:11:42.008] [INFO] console - [32m[2013-05-20 15:11:42.007] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:11:42.010] [INFO] console - [32m[2013-05-20 15:11:42.010] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:12:21.497] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:12:21.653] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:12:21.656] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:12:21.663] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:12:21.671] [INFO] console - [32m[2013-05-20 15:12:21.669] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:12:21.754] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:12:21.755] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:12:21.798] [INFO] console - [32m[2013-05-20 15:12:21.794] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:12:21.800] [INFO] console - [32m[2013-05-20 15:12:21.796] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:12:22.064] [INFO] console - [32m[2013-05-20 15:12:22.063] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:12:22.074] [INFO] console - [32m[2013-05-20 15:12:22.074] [INFO] console - [39m[32m[2013-05-20 15:12:22.073] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:12:22.121] [INFO] console - [32m[2013-05-20 15:12:22.120] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:12:22.142] [INFO] console - [32m[2013-05-20 15:12:22.141] [INFO] console - [39m[32m[2013-05-20 15:12:22.140] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:12:22.146] [INFO] console - [32m[2013-05-20 15:12:22.145] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:12:22.147] [INFO] console - [32m[2013-05-20 15:12:22.146] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:12:22.184] [INFO] console - [32m[2013-05-20 15:12:22.183] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:12:22.186] [INFO] console - [32m[2013-05-20 15:12:22.186] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:12:30.176] [INFO] console - [31m[2013-05-20 15:12:30.175] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:16:37.064] [INFO] console - [32m[2013-05-20 15:16:37.064] [INFO] console - [39muser have left
+
+[2013-05-20 15:17:51.390] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:17:51.545] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:17:51.547] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:17:51.553] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:17:51.557] [INFO] console - [32m[2013-05-20 15:17:51.556] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:17:51.635] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:17:51.635] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:17:51.688] [INFO] console - [32m[2013-05-20 15:17:51.684] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:17:51.688] [INFO] console - [32m[2013-05-20 15:17:51.685] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:17:51.960] [INFO] console - [32m[2013-05-20 15:17:51.959] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:17:51.970] [INFO] console - [32m[2013-05-20 15:17:51.969] [INFO] console - [39m[32m[2013-05-20 15:17:51.969] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:17:52.002] [INFO] console - [32m[2013-05-20 15:17:52.000] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:17:52.018] [INFO] console - [32m[2013-05-20 15:17:52.018] [INFO] console - [39m[32m[2013-05-20 15:17:52.017] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:17:52.040] [INFO] console - [32m[2013-05-20 15:17:52.039] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:17:52.041] [INFO] console - [32m[2013-05-20 15:17:52.041] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:17:52.080] [INFO] console - [32m[2013-05-20 15:17:52.080] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:17:52.128] [INFO] console - [32m[2013-05-20 15:17:52.127] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:17:52.129] [INFO] console - [32m[2013-05-20 15:17:52.128] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:18:24.772] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:18:24.928] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:18:24.930] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:18:24.937] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:18:24.943] [INFO] console - [32m[2013-05-20 15:18:24.942] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:18:25.027] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:18:25.028] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:18:25.076] [INFO] console - [32m[2013-05-20 15:18:25.072] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:18:25.082] [INFO] console - [32m[2013-05-20 15:18:25.078] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:18:25.352] [INFO] console - [32m[2013-05-20 15:18:25.351] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:18:25.357] [INFO] console - [32m[2013-05-20 15:18:25.356] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:18:25.362] [INFO] console - [32m[2013-05-20 15:18:25.362] [INFO] console - [39m[32m[2013-05-20 15:18:25.361] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:18:25.375] [INFO] console - [32m[2013-05-20 15:18:25.375] [INFO] console - [39m[32m[2013-05-20 15:18:25.374] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:18:25.430] [INFO] console - [32m[2013-05-20 15:18:25.430] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:18:25.431] [INFO] console - [32m[2013-05-20 15:18:25.431] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:18:25.441] [INFO] console - [32m[2013-05-20 15:18:25.440] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:18:25.448] [INFO] console - [32m[2013-05-20 15:18:25.447] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:18:25.448] [INFO] console - [32m[2013-05-20 15:18:25.448] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:18:38.880] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:18:39.066] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:18:39.068] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:18:39.074] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:18:39.080] [INFO] console - [32m[2013-05-20 15:18:39.078] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:18:39.158] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:18:39.159] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:18:39.206] [INFO] console - [32m[2013-05-20 15:18:39.202] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:18:39.227] [INFO] console - [32m[2013-05-20 15:18:39.223] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:18:39.514] [INFO] console - [32m[2013-05-20 15:18:39.513] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:18:39.528] [INFO] console - [32m[2013-05-20 15:18:39.527] [INFO] console - [39m[32m[2013-05-20 15:18:39.526] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:18:39.545] [INFO] console - [32m[2013-05-20 15:18:39.543] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:18:39.565] [INFO] console - [32m[2013-05-20 15:18:39.565] [INFO] console - [39m[32m[2013-05-20 15:18:39.564] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:18:39.577] [INFO] console - [32m[2013-05-20 15:18:39.576] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:18:39.577] [INFO] console - [32m[2013-05-20 15:18:39.577] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:18:39.613] [INFO] console - [32m[2013-05-20 15:18:39.611] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:18:39.615] [INFO] console - [32m[2013-05-20 15:18:39.614] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:18:47.436] [INFO] console - [31m[2013-05-20 15:18:47.435] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:18:56.904] [INFO] console - [32m[2013-05-20 15:18:56.903] [INFO] console - [39muser have left
+
+[2013-05-20 15:19:00.313] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:19:00.469] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:19:00.472] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:19:00.477] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:19:00.482] [INFO] console - [32m[2013-05-20 15:19:00.481] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:19:00.560] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:19:00.561] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:19:00.611] [INFO] console - [32m[2013-05-20 15:19:00.607] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:19:00.620] [INFO] console - [32m[2013-05-20 15:19:00.615] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:19:00.897] [INFO] console - [32m[2013-05-20 15:19:00.896] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:19:00.908] [INFO] console - [32m[2013-05-20 15:19:00.907] [INFO] console - [39m[32m[2013-05-20 15:19:00.906] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:19:00.941] [INFO] console - [32m[2013-05-20 15:19:00.939] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:19:00.958] [INFO] console - [32m[2013-05-20 15:19:00.958] [INFO] console - [39m[32m[2013-05-20 15:19:00.956] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:19:00.977] [INFO] console - [32m[2013-05-20 15:19:00.977] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:19:00.978] [INFO] console - [32m[2013-05-20 15:19:00.978] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:19:01.005] [INFO] console - [32m[2013-05-20 15:19:01.003] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:19:01.006] [INFO] console - [32m[2013-05-20 15:19:01.005] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:19:16.879] [INFO] console - [31m[2013-05-20 15:19:16.879] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:23:23.480] [INFO] console - [32m[2013-05-20 15:23:23.479] [INFO] console - [39muser have left
+
+[2013-05-20 15:24:50.176] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:24:50.354] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:24:50.356] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:24:50.363] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:24:50.369] [INFO] console - [32m[2013-05-20 15:24:50.368] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:24:50.426] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:24:50.426] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:24:50.494] [INFO] console - [32m[2013-05-20 15:24:50.490] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:24:50.499] [INFO] console - [32m[2013-05-20 15:24:50.495] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:24:50.798] [INFO] console - [32m[2013-05-20 15:24:50.797] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:24:50.811] [INFO] console - [32m[2013-05-20 15:24:50.811] [INFO] console - [39m[32m[2013-05-20 15:24:50.810] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:24:50.815] [INFO] console - [32m[2013-05-20 15:24:50.813] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:24:50.834] [INFO] console - [32m[2013-05-20 15:24:50.834] [INFO] console - [39m[32m[2013-05-20 15:24:50.833] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:24:50.861] [INFO] console - [32m[2013-05-20 15:24:50.861] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:24:50.862] [INFO] console - [32m[2013-05-20 15:24:50.862] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:24:50.882] [INFO] console - [32m[2013-05-20 15:24:50.880] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:24:50.883] [INFO] console - [32m[2013-05-20 15:24:50.883] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:24:58.680] [INFO] console - [31m[2013-05-20 15:24:58.679] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:26:39.580] [INFO] console - [32m[2013-05-20 15:26:39.579] [INFO] console - [39muser have left
+
+[2013-05-20 15:27:35.029] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:27:35.189] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:27:35.192] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:27:35.197] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:27:35.202] [INFO] console - [32m[2013-05-20 15:27:35.201] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:27:35.281] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:27:35.281] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:27:35.326] [INFO] console - [32m[2013-05-20 15:27:35.322] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:27:35.330] [INFO] console - [32m[2013-05-20 15:27:35.327] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:27:35.378] [INFO] console - [32m[2013-05-20 15:27:35.377] [INFO] console - [39mundefined
+
+[2013-05-20 15:27:35.600] [INFO] console - [32m[2013-05-20 15:27:35.599] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:27:35.610] [INFO] console - [32m[2013-05-20 15:27:35.610] [INFO] console - [39m[32m[2013-05-20 15:27:35.609] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:27:35.659] [INFO] console - [32m[2013-05-20 15:27:35.658] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:27:35.677] [INFO] console - [32m[2013-05-20 15:27:35.676] [INFO] console - [39m[32m[2013-05-20 15:27:35.675] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:27:35.681] [INFO] console - [32m[2013-05-20 15:27:35.681] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:27:35.682] [INFO] console - [32m[2013-05-20 15:27:35.682] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:27:35.719] [INFO] console - [32m[2013-05-20 15:27:35.718] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:27:35.721] [INFO] console - [32m[2013-05-20 15:27:35.721] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:28:00.259] [INFO] console - [31m[2013-05-20 15:28:00.258] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:48:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:28:30.471] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 15:28:30.631] [INFO] console - info: 'socket.io started'
+[2013-05-20 15:28:30.634] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 15:28:30.641] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 15:28:30.648] [INFO] console - [32m[2013-05-20 15:28:30.646] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 15:28:30.753] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 15:28:30.754] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 15:28:30.764] [INFO] console - [32m[2013-05-20 15:28:30.761] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 15:28:30.807] [INFO] console - [32m[2013-05-20 15:28:30.803] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 15:28:31.102] [INFO] console - [32m[2013-05-20 15:28:31.101] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:28:31.114] [INFO] console - [32m[2013-05-20 15:28:31.113] [INFO] console - [39m[32m[2013-05-20 15:28:31.112] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 15:28:31.118] [INFO] console - [32m[2013-05-20 15:28:31.117] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 15:28:31.136] [INFO] console - [32m[2013-05-20 15:28:31.136] [INFO] console - [39m[32m[2013-05-20 15:28:31.135] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 15:28:31.188] [INFO] console - [32m[2013-05-20 15:28:31.188] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 15:28:31.191] [INFO] console - [32m[2013-05-20 15:28:31.191] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 15:28:31.193] [INFO] console - [32m[2013-05-20 15:28:31.193] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 15:28:31.194] [INFO] console - [32m[2013-05-20 15:28:31.194] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 15:28:39.015] [INFO] console - [32m[2013-05-20 15:28:39.011] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 15:28:39.021] [INFO] console - [31m[2013-05-20 15:28:39.020] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 15:32:45.110] [INFO] console - [32m[2013-05-20 15:32:45.109] [INFO] console - [39muser have left
+
+[2013-05-20 16:16:29.335] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:16:29.498] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:16:29.501] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:16:29.508] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:16:29.517] [INFO] console - [32m[2013-05-20 16:16:29.515] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:16:29.601] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:16:29.602] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:16:29.649] [INFO] console - [32m[2013-05-20 16:16:29.645] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:16:29.653] [INFO] console - [32m[2013-05-20 16:16:29.649] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:16:29.951] [INFO] console - [32m[2013-05-20 16:16:29.950] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:16:29.966] [INFO] console - [32m[2013-05-20 16:16:29.965] [INFO] console - [39m[32m[2013-05-20 16:16:29.964] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:16:29.973] [INFO] console - [32m[2013-05-20 16:16:29.972] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:16:29.993] [INFO] console - [32m[2013-05-20 16:16:29.992] [INFO] console - [39m[32m[2013-05-20 16:16:29.991] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:16:30.016] [INFO] console - [32m[2013-05-20 16:16:30.015] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:16:30.017] [INFO] console - [32m[2013-05-20 16:16:30.016] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:16:30.040] [INFO] console - [32m[2013-05-20 16:16:30.039] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:16:30.042] [INFO] console - [32m[2013-05-20 16:16:30.042] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:16:42.558] [INFO] console - [32m[2013-05-20 16:16:42.553] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:16:42.566] [INFO] console - [31m[2013-05-20 16:16:42.566] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:16:58.359] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:16:58.516] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:16:58.519] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:16:58.524] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:16:58.529] [INFO] console - [32m[2013-05-20 16:16:58.528] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:16:58.617] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:16:58.618] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:16:58.656] [INFO] console - [32m[2013-05-20 16:16:58.652] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:16:58.662] [INFO] console - [32m[2013-05-20 16:16:58.657] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:16:58.927] [INFO] console - [32m[2013-05-20 16:16:58.926] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:16:58.938] [INFO] console - [32m[2013-05-20 16:16:58.937] [INFO] console - [39m[32m[2013-05-20 16:16:58.937] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:16:58.986] [INFO] console - [32m[2013-05-20 16:16:58.984] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:16:59.005] [INFO] console - [32m[2013-05-20 16:16:59.004] [INFO] console - [39m[32m[2013-05-20 16:16:59.003] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:16:59.005] [INFO] console - [32m[2013-05-20 16:16:59.004] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:16:59.005] [INFO] console - [32m[2013-05-20 16:16:59.005] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:16:59.046] [INFO] console - [32m[2013-05-20 16:16:59.046] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:16:59.048] [INFO] console - [32m[2013-05-20 16:16:59.048] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:20:06.999] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:20:07.155] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:20:07.158] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:20:07.165] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:20:07.173] [INFO] console - [32m[2013-05-20 16:20:07.171] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:20:07.283] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:20:07.283] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:20:07.292] [INFO] console - [32m[2013-05-20 16:20:07.288] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:20:07.334] [INFO] console - [32m[2013-05-20 16:20:07.330] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:20:07.601] [INFO] console - [32m[2013-05-20 16:20:07.600] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:20:07.611] [INFO] console - [32m[2013-05-20 16:20:07.611] [INFO] console - [39m[32m[2013-05-20 16:20:07.610] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:20:07.615] [INFO] console - [32m[2013-05-20 16:20:07.614] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:20:07.635] [INFO] console - [32m[2013-05-20 16:20:07.635] [INFO] console - [39m[32m[2013-05-20 16:20:07.634] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:20:07.680] [INFO] console - [32m[2013-05-20 16:20:07.679] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:20:07.682] [INFO] console - [32m[2013-05-20 16:20:07.682] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:20:07.688] [INFO] console - [32m[2013-05-20 16:20:07.688] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:20:07.689] [INFO] console - [32m[2013-05-20 16:20:07.689] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:20:29.428] [INFO] console - [32m[2013-05-20 16:20:29.425] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:20:29.433] [INFO] console - [31m[2013-05-20 16:20:29.433] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:22:44.826] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:22:44.984] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:22:44.986] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:22:44.993] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:22:45.000] [INFO] console - [32m[2013-05-20 16:22:44.998] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:22:45.081] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:22:45.081] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:22:45.129] [INFO] console - [32m[2013-05-20 16:22:45.125] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:22:45.129] [INFO] console - [32m[2013-05-20 16:22:45.129] [INFO] console - [39m<!--    game server start     --!>
+
+[2013-05-20 16:22:45.130] [INFO] console - [32m[2013-05-20 16:22:45.126] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:22:45.396] [INFO] console - [32m[2013-05-20 16:22:45.395] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:22:45.405] [INFO] console - [32m[2013-05-20 16:22:45.405] [INFO] console - [39m[32m[2013-05-20 16:22:45.404] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:22:45.460] [INFO] console - [32m[2013-05-20 16:22:45.458] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:22:45.474] [INFO] console - [32m[2013-05-20 16:22:45.473] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:22:45.475] [INFO] console - [32m[2013-05-20 16:22:45.474] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:22:45.479] [INFO] console - [32m[2013-05-20 16:22:45.478] [INFO] console - [39m[32m[2013-05-20 16:22:45.478] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:22:45.520] [INFO] console - [32m[2013-05-20 16:22:45.520] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:22:45.522] [INFO] console - [32m[2013-05-20 16:22:45.522] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:23:08.230] [INFO] console - [32m[2013-05-20 16:23:08.228] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:23:08.234] [INFO] console - [31m[2013-05-20 16:23:08.234] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:26:28.221] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:26:28.411] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:26:28.414] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:26:28.422] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:26:28.430] [INFO] console - [32m[2013-05-20 16:26:28.428] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:26:28.492] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:26:28.492] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:26:28.556] [INFO] console - [32m[2013-05-20 16:26:28.552] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:26:28.559] [INFO] console - [32m[2013-05-20 16:26:28.555] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:26:28.614] [INFO] console - [32m[2013-05-20 16:26:28.613] [INFO] console - [39m<!--    game server start     --!>
+
+[2013-05-20 16:26:28.879] [INFO] console - [32m[2013-05-20 16:26:28.878] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:26:28.889] [INFO] console - [32m[2013-05-20 16:26:28.888] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:26:28.893] [INFO] console - [32m[2013-05-20 16:26:28.892] [INFO] console - [39m[32m[2013-05-20 16:26:28.891] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:26:28.909] [INFO] console - [32m[2013-05-20 16:26:28.908] [INFO] console - [39m[32m[2013-05-20 16:26:28.907] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:26:28.943] [INFO] console - [32m[2013-05-20 16:26:28.943] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:26:28.945] [INFO] console - [32m[2013-05-20 16:26:28.944] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:26:28.961] [INFO] console - [32m[2013-05-20 16:26:28.961] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:26:28.963] [INFO] console - [32m[2013-05-20 16:26:28.963] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:26:59.338] [INFO] console - [32m[2013-05-20 16:26:59.337] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:26:59.342] [INFO] console - [31m[2013-05-20 16:26:59.342] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:28:21.627] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:28:21.788] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:28:21.791] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:28:21.798] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:28:21.805] [INFO] console - [32m[2013-05-20 16:28:21.804] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:28:21.888] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:28:21.888] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:28:21.935] [INFO] console - [32m[2013-05-20 16:28:21.930] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:28:21.936] [INFO] console - [32m[2013-05-20 16:28:21.931] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:28:22.199] [INFO] console - [32m[2013-05-20 16:28:22.198] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:28:22.209] [INFO] console - [32m[2013-05-20 16:28:22.208] [INFO] console - [39m[32m[2013-05-20 16:28:22.208] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:28:22.224] [INFO] console - [32m[2013-05-20 16:28:22.223] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:28:22.243] [INFO] console - [32m[2013-05-20 16:28:22.243] [INFO] console - [39m[32m[2013-05-20 16:28:22.242] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:28:22.277] [INFO] console - [32m[2013-05-20 16:28:22.276] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:28:22.278] [INFO] console - [32m[2013-05-20 16:28:22.278] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:28:22.308] [INFO] console - [32m[2013-05-20 16:28:22.308] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:28:22.313] [INFO] console - [32m[2013-05-20 16:28:22.313] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:28:22.314] [INFO] console - [32m[2013-05-20 16:28:22.313] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:40:37.153] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:40:37.351] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:40:37.354] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:40:37.358] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:40:37.363] [INFO] console - [32m[2013-05-20 16:40:37.362] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:40:37.573] [INFO] console - [32m[2013-05-20 16:40:37.481] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:40:37.573] [INFO] console - [32m[2013-05-20 16:40:37.483] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:40:37.590] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:40:37.590] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:40:38.498] [INFO] console - [32m[2013-05-20 16:40:38.496] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:40:38.511] [INFO] console - [32m[2013-05-20 16:40:38.511] [INFO] console - [39m[32m[2013-05-20 16:40:38.510] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:40:38.588] [INFO] console - [32m[2013-05-20 16:40:38.587] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:40:38.589] [INFO] console - [32m[2013-05-20 16:40:38.588] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:40:38.600] [INFO] console - [32m[2013-05-20 16:40:38.599] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:40:38.619] [INFO] console - [32m[2013-05-20 16:40:38.619] [INFO] console - [39m[32m[2013-05-20 16:40:38.618] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:40:38.689] [INFO] console - [32m[2013-05-20 16:40:38.689] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:40:38.729] [INFO] console - [32m[2013-05-20 16:40:38.729] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:40:38.730] [INFO] console - [32m[2013-05-20 16:40:38.729] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:41:32.753] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:41:32.914] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:41:32.916] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:41:32.923] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:41:32.929] [INFO] console - [32m[2013-05-20 16:41:32.928] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:41:33.008] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:41:33.009] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:41:33.055] [INFO] console - [32m[2013-05-20 16:41:33.050] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:41:33.062] [INFO] console - [32m[2013-05-20 16:41:33.057] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:41:33.320] [INFO] console - [32m[2013-05-20 16:41:33.319] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:41:33.331] [INFO] console - [32m[2013-05-20 16:41:33.331] [INFO] console - [39m[32m[2013-05-20 16:41:33.330] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:41:33.400] [INFO] console - [32m[2013-05-20 16:41:33.400] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:41:33.401] [INFO] console - [32m[2013-05-20 16:41:33.401] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:41:33.483] [INFO] console - [32m[2013-05-20 16:41:33.482] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:41:33.499] [INFO] console - [32m[2013-05-20 16:41:33.498] [INFO] console - [39m[32m[2013-05-20 16:41:33.497] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:41:33.540] [INFO] console - [32m[2013-05-20 16:41:33.540] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:41:33.542] [INFO] console - [32m[2013-05-20 16:41:33.542] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:41:41.989] [INFO] console - [32m[2013-05-20 16:41:41.984] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:41:41.997] [INFO] console - [31m[2013-05-20 16:41:41.996] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:41:46.533] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:41:46.695] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:41:46.697] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:41:46.704] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:41:46.711] [INFO] console - [32m[2013-05-20 16:41:46.710] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:41:46.795] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:41:46.795] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:41:46.842] [INFO] console - [32m[2013-05-20 16:41:46.838] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:41:46.844] [INFO] console - [32m[2013-05-20 16:41:46.840] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:41:47.115] [INFO] console - [32m[2013-05-20 16:41:47.114] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:41:47.126] [INFO] console - [32m[2013-05-20 16:41:47.126] [INFO] console - [39m[32m[2013-05-20 16:41:47.125] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:41:47.189] [INFO] console - [32m[2013-05-20 16:41:47.188] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:41:47.199] [INFO] console - [32m[2013-05-20 16:41:47.199] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:41:47.200] [INFO] console - [32m[2013-05-20 16:41:47.200] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:41:47.209] [INFO] console - [32m[2013-05-20 16:41:47.209] [INFO] console - [39m[32m[2013-05-20 16:41:47.208] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:41:47.254] [INFO] console - [32m[2013-05-20 16:41:47.254] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:41:47.257] [INFO] console - [32m[2013-05-20 16:41:47.256] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:44:16.235] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:44:16.397] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:44:16.399] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:44:16.406] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:44:16.412] [INFO] console - [32m[2013-05-20 16:44:16.411] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:44:16.491] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:44:16.491] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:44:16.545] [INFO] console - [32m[2013-05-20 16:44:16.541] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:44:16.545] [INFO] console - [32m[2013-05-20 16:44:16.541] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:44:16.823] [INFO] console - [32m[2013-05-20 16:44:16.822] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:44:16.833] [INFO] console - [32m[2013-05-20 16:44:16.833] [INFO] console - [39m[32m[2013-05-20 16:44:16.832] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:44:16.877] [INFO] console - [32m[2013-05-20 16:44:16.876] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:44:16.898] [INFO] console - [32m[2013-05-20 16:44:16.897] [INFO] console - [39m[32m[2013-05-20 16:44:16.896] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:44:16.905] [INFO] console - [32m[2013-05-20 16:44:16.904] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:44:16.906] [INFO] console - [32m[2013-05-20 16:44:16.906] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:44:16.941] [INFO] console - [32m[2013-05-20 16:44:16.939] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:44:16.942] [INFO] console - [32m[2013-05-20 16:44:16.942] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:44:28.375] [INFO] console - [32m[2013-05-20 16:44:28.371] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:44:28.383] [INFO] console - [31m[2013-05-20 16:44:28.383] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:46:58.233] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:46:58.398] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:46:58.401] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:46:58.406] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:46:58.412] [INFO] console - [32m[2013-05-20 16:46:58.410] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:46:58.490] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:46:58.491] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:46:58.541] [INFO] console - [32m[2013-05-20 16:46:58.536] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:46:58.545] [INFO] console - [32m[2013-05-20 16:46:58.540] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:46:58.820] [INFO] console - [32m[2013-05-20 16:46:58.818] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:46:58.830] [INFO] console - [32m[2013-05-20 16:46:58.830] [INFO] console - [39m[32m[2013-05-20 16:46:58.829] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:46:58.871] [INFO] console - [32m[2013-05-20 16:46:58.869] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:46:58.890] [INFO] console - [32m[2013-05-20 16:46:58.889] [INFO] console - [39m[32m[2013-05-20 16:46:58.888] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:46:58.901] [INFO] console - [32m[2013-05-20 16:46:58.901] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:46:58.902] [INFO] console - [32m[2013-05-20 16:46:58.902] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:46:58.934] [INFO] console - [32m[2013-05-20 16:46:58.932] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:46:58.935] [INFO] console - [32m[2013-05-20 16:46:58.935] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:47:24.758] [INFO] console - [32m[2013-05-20 16:47:24.754] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:47:24.766] [INFO] console - [31m[2013-05-20 16:47:24.766] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:48:04.665] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:48:04.831] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:48:04.834] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:48:04.839] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:48:04.844] [INFO] console - [32m[2013-05-20 16:48:04.843] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:48:04.921] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:48:04.921] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:48:05.019] [INFO] console - [32m[2013-05-20 16:48:05.014] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:48:05.025] [INFO] console - [32m[2013-05-20 16:48:05.021] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:48:05.305] [INFO] console - [32m[2013-05-20 16:48:05.304] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:48:05.315] [INFO] console - [32m[2013-05-20 16:48:05.315] [INFO] console - [39m[32m[2013-05-20 16:48:05.314] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:48:05.365] [INFO] console - [32m[2013-05-20 16:48:05.363] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:48:05.383] [INFO] console - [32m[2013-05-20 16:48:05.383] [INFO] console - [39m[32m[2013-05-20 16:48:05.382] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:48:05.385] [INFO] console - [32m[2013-05-20 16:48:05.385] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:48:05.386] [INFO] console - [32m[2013-05-20 16:48:05.386] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:48:05.433] [INFO] console - [32m[2013-05-20 16:48:05.432] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:48:05.437] [INFO] console - [32m[2013-05-20 16:48:05.437] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:48:13.682] [INFO] console - [32m[2013-05-20 16:48:13.678] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:48:13.689] [INFO] console - [31m[2013-05-20 16:48:13.689] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'gameHandler' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:53:16.463] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:53:16.647] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:53:16.649] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:53:16.654] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:53:16.659] [INFO] console - [32m[2013-05-20 16:53:16.658] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:53:16.718] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:53:16.718] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:53:16.785] [INFO] console - [32m[2013-05-20 16:53:16.781] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:53:16.787] [INFO] console - [32m[2013-05-20 16:53:16.784] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:53:17.101] [INFO] console - [32m[2013-05-20 16:53:17.099] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:53:17.116] [INFO] console - [32m[2013-05-20 16:53:17.116] [INFO] console - [39m[32m[2013-05-20 16:53:17.115] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:53:17.125] [INFO] console - [32m[2013-05-20 16:53:17.124] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:53:17.146] [INFO] console - [32m[2013-05-20 16:53:17.146] [INFO] console - [39m[32m[2013-05-20 16:53:17.145] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:53:17.164] [INFO] console - [32m[2013-05-20 16:53:17.164] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:53:17.165] [INFO] console - [32m[2013-05-20 16:53:17.165] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:53:17.196] [INFO] console - [32m[2013-05-20 16:53:17.195] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:53:17.198] [INFO] console - [32m[2013-05-20 16:53:17.198] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:53:27.875] [INFO] console - [32m[2013-05-20 16:53:27.872] [INFO] console - [39m[ { main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+    env: 'development',
+    id: 'game-server-1',
+    host: '127.0.0.1',
+    port: 3151,
+    serverType: 'game' } ]
+
+[2013-05-20 16:53:27.884] [INFO] console - [31m[2013-05-20 16:53:27.884] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'game' of undefined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:49:14)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-20 16:57:09.890] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:57:10.055] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:57:10.058] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:57:10.065] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:57:10.074] [INFO] console - [32m[2013-05-20 16:57:10.072] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:57:10.156] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:57:10.157] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:57:10.252] [INFO] console - [32m[2013-05-20 16:57:10.244] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:57:10.253] [INFO] console - [32m[2013-05-20 16:57:10.246] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:57:10.524] [INFO] console - [32m[2013-05-20 16:57:10.523] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:57:10.534] [INFO] console - [32m[2013-05-20 16:57:10.534] [INFO] console - [39m[32m[2013-05-20 16:57:10.533] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:57:10.543] [INFO] console - [32m[2013-05-20 16:57:10.541] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:57:10.561] [INFO] console - [32m[2013-05-20 16:57:10.560] [INFO] console - [39m[32m[2013-05-20 16:57:10.559] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:57:10.606] [INFO] console - [32m[2013-05-20 16:57:10.606] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:57:10.607] [INFO] console - [32m[2013-05-20 16:57:10.607] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:57:10.628] [INFO] console - [32m[2013-05-20 16:57:10.626] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:57:10.633] [INFO] console - [32m[2013-05-20 16:57:10.633] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:57:10.633] [INFO] console - [32m[2013-05-20 16:57:10.633] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 16:58:29.604] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 16:58:29.780] [INFO] console - info: 'socket.io started'
+[2013-05-20 16:58:29.783] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 16:58:29.788] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 16:58:29.793] [INFO] console - [32m[2013-05-20 16:58:29.792] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 16:58:29.872] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 16:58:29.872] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 16:58:29.922] [INFO] console - [32m[2013-05-20 16:58:29.918] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 16:58:29.923] [INFO] console - [32m[2013-05-20 16:58:29.919] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 16:58:30.193] [INFO] console - [32m[2013-05-20 16:58:30.191] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:58:30.203] [INFO] console - [32m[2013-05-20 16:58:30.202] [INFO] console - [39m[32m[2013-05-20 16:58:30.202] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 16:58:30.217] [INFO] console - [32m[2013-05-20 16:58:30.216] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:58:30.238] [INFO] console - [32m[2013-05-20 16:58:30.238] [INFO] console - [39m[32m[2013-05-20 16:58:30.237] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 16:58:30.271] [INFO] console - [32m[2013-05-20 16:58:30.271] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 16:58:30.273] [INFO] console - [32m[2013-05-20 16:58:30.272] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 16:58:30.305] [INFO] console - [32m[2013-05-20 16:58:30.305] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 16:58:30.311] [INFO] console - [32m[2013-05-20 16:58:30.311] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 16:58:30.311] [INFO] console - [32m[2013-05-20 16:58:30.311] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 17:02:12.092] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 17:02:12.256] [INFO] console - info: 'socket.io started'
+[2013-05-20 17:02:12.259] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 17:02:12.265] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 17:02:12.270] [INFO] console - [32m[2013-05-20 17:02:12.269] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 17:02:12.345] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 17:02:12.346] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 17:02:12.403] [INFO] console - [32m[2013-05-20 17:02:12.399] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 17:02:12.407] [INFO] console - [32m[2013-05-20 17:02:12.404] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 17:02:12.683] [INFO] console - [32m[2013-05-20 17:02:12.682] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:02:12.693] [INFO] console - [32m[2013-05-20 17:02:12.691] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:02:12.698] [INFO] console - [32m[2013-05-20 17:02:12.698] [INFO] console - [39m[32m[2013-05-20 17:02:12.697] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 17:02:12.711] [INFO] console - [32m[2013-05-20 17:02:12.710] [INFO] console - [39m[32m[2013-05-20 17:02:12.709] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 17:02:12.768] [INFO] console - [32m[2013-05-20 17:02:12.766] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 17:02:12.768] [INFO] console - [32m[2013-05-20 17:02:12.768] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 17:02:12.787] [INFO] console - [32m[2013-05-20 17:02:12.785] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 17:02:12.791] [INFO] console - [32m[2013-05-20 17:02:12.791] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:02:12.792] [INFO] console - [32m[2013-05-20 17:02:12.792] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 17:03:19.127] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 17:03:19.287] [INFO] console - info: 'socket.io started'
+[2013-05-20 17:03:19.289] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 17:03:19.297] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 17:03:19.306] [INFO] console - [32m[2013-05-20 17:03:19.304] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 17:03:19.385] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 17:03:19.386] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 17:03:19.446] [INFO] console - [32m[2013-05-20 17:03:19.442] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 17:03:19.447] [INFO] console - [32m[2013-05-20 17:03:19.443] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 17:03:19.714] [INFO] console - [32m[2013-05-20 17:03:19.713] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:03:19.728] [INFO] console - [32m[2013-05-20 17:03:19.728] [INFO] console - [39m[32m[2013-05-20 17:03:19.726] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 17:03:19.733] [INFO] console - [32m[2013-05-20 17:03:19.732] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:03:19.751] [INFO] console - [32m[2013-05-20 17:03:19.750] [INFO] console - [39m[32m[2013-05-20 17:03:19.749] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 17:03:19.797] [INFO] console - [32m[2013-05-20 17:03:19.796] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 17:03:19.798] [INFO] console - [32m[2013-05-20 17:03:19.798] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 17:03:19.820] [INFO] console - [32m[2013-05-20 17:03:19.818] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 17:03:19.825] [INFO] console - [32m[2013-05-20 17:03:19.824] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:03:19.825] [INFO] console - [32m[2013-05-20 17:03:19.825] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-20 17:27:32.852] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-20 17:27:32.904] [INFO] console - { [Function]
+  super_: { [Function: EventEmitter] listenerCount: [Function] } }
+[2013-05-20 17:27:33.049] [INFO] console - info: 'socket.io started'
+[2013-05-20 17:27:33.051] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="connector-server-1"  "host"="127.0.0.1"  "port"="3150"  "clientPort"="3010"  "frontend"="true"  "serverType"="connector"  locally
+[2013-05-20 17:27:33.058] [INFO] /usr/lib/node_modules/pomelo/lib/master/starter.js - Executing cd "/home/noonnightstorm/codings/nodejs/love-game/game-server" && "/usr/bin/nodejs" "/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js" env="development"  "id"="game-server-1"  "host"="127.0.0.1"  "port"="3151"  "serverType"="game"  locally
+[2013-05-20 17:27:33.067] [INFO] console - [32m[2013-05-20 17:27:33.065] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-20 17:27:33.126] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-20 17:27:33.127] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-20 17:27:33.192] [INFO] console - [32m[2013-05-20 17:27:33.188] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-20 17:27:33.196] [INFO] console - [32m[2013-05-20 17:27:33.192] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39mapplication inited: "game-server-1"
+
+[2013-05-20 17:27:33.249] [INFO] console - [32m[2013-05-20 17:27:33.246] [INFO] console - [39m{ [Function]
+  super_: { [Function: EventEmitter] listenerCount: [Function] } }
+
+[2013-05-20 17:27:33.253] [INFO] console - [32m[2013-05-20 17:27:33.250] [INFO] console - [39m{ [Function]
+  super_: { [Function: EventEmitter] listenerCount: [Function] } }
+
+[2013-05-20 17:27:33.515] [INFO] console - [32m[2013-05-20 17:27:33.515] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:27:33.530] [INFO] console - [32m[2013-05-20 17:27:33.530] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-20 17:27:33.532] [INFO] console - [32m[2013-05-20 17:27:33.532] [INFO] console - [39m[32m[2013-05-20 17:27:33.529] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+
+[2013-05-20 17:27:33.553] [INFO] console - [32m[2013-05-20 17:27:33.551] [INFO] console - [39m[32m[2013-05-20 17:27:33.550] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-20 17:27:33.582] [INFO] console - [32m[2013-05-20 17:27:33.581] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" enter after start...
+
+[2013-05-20 17:27:33.583] [INFO] console - [32m[2013-05-20 17:27:33.582] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"game-server-1" finish start
+
+[2013-05-20 17:27:33.605] [INFO] console - [32m[2013-05-20 17:27:33.604] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-20 17:27:33.609] [INFO] console - [32m[2013-05-20 17:27:33.609] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+

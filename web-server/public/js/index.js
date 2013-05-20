@@ -180,8 +180,9 @@ var Pomelo = {
 		});
 	},
 	register : function(){
+		//remember to finish
 		pomelo.request("",{},function(){
-			
+
 		});
 	},
 	initBones : function(){

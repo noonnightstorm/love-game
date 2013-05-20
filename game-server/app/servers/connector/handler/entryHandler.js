@@ -14,10 +14,7 @@ var Handler = function(app) {
  * @param  {Function} next    next stemp callback
  * @return {Void}
  */
-/*Handler.prototype.entry = function(msg, session, next) {
-	console.log(msg);
-  next(null, {code: 200, msg: 'game server is ok.'});
-};*/
+
 
 var handler = Handler.prototype;
 
@@ -45,6 +42,10 @@ handler.login = function(msg,session,next){
 		code: 200,
 		msg:"success"
 	});
+
+	console.log(self.app.getServersByType("game"));
+
+	self.app.rpc.game.gameHandler.addUser(session,uid,self.app.get("serverId"),account,true);
 };
 
 var onUserLeave = function(app, session) {
