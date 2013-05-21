@@ -1,59 +1,3 @@
-/*$(document).ready(function(){
-	$("#check-login-btn").click(sendReq);
-	var host = "127.0.0.1";
-	var port = "3010";
-	var pomelo = window.pomelo;
-	pomelo.init({
-		host: host,
-		port: port,
-		log: true
-	});
-});
-function sendReq(){
-	var account = $("#login-account").val();
-	var password = $("#login-password").val();
-	if(account.length<6){
-		$("#login-account").css({
-			"border-color": "#b94a48",
-			"-webkit-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-			"-moz-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-			"box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)"
-		});
-		return ;
-	}
-	if(password.length<6){
-		$("#login-password").css({
-			"border-color": "#b94a48",
-			"-webkit-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-			"-moz-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-			"box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)"
-		});
-		return ;
-	}
-	$.ajax({
-		url:"/check_login/"+account+"/"+password,
-		dataType:"json",
-		type:"get",
-		cache:false,
-		success:function(data){
-			if(data.result == "success"){
-				pomelo.request("connector.entryHandler.login",{account:account,password:password});
-				window.location.href = "/game/"+account+"/"+password;
-			}
-			else{
-				$("#login-password").css({
-					"border-color": "#b94a48",
-					"-webkit-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-					"-moz-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)",
-					"box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075)"
-				});
-			}
-		},
-		err:function(){
-			alert("发送失败");
-		}
-	});
-}*/
 require('boot');
 var pomelo = window.pomelo;
 $(document).ready(function(){
@@ -69,20 +13,8 @@ $(document).ready(function(){
     	port: port,
     	log: true
   	},function(){
-  		if(pomelo){
-  			Pomelo.self = pomelo;
-  		}
+		Pomelo.init();
   	});
-	//画骨头
-	/*var canvas = document.getElementById("my-canvas");
-	var cxt = canvas.getContext("2d");
-	var image = new Image();  
-	image.src = "../image/bone.png";
-	image.onload = function(){
-		var bone = new Bone({img:image,cxt:cxt});
-		bone.init(cxt);
-		bone.addListener(canvas);
-	}*/
 });
 
 function enter_login(){
@@ -151,7 +83,7 @@ function send_register(){
 		},
 		success:function(data){
 			if(data.result == "success"){
-
+				Pomelo.register(account,password);
 			}
 			else{
 
@@ -165,6 +97,33 @@ function send_register(){
 
 var Pomelo = {
 	self : null,
+	canvas : null,
+	cxt : null,
+	image : null,
+	init : function(){
+		this.self = pomelo;
+		//准备好图片
+		var canvas = document.getElementById("my-canvas");
+		var cxt = canvas.getContext("2d");
+		var image = new Image();  
+		image.src = "../image/bone.png";
+		image.onload = function(){
+			Pomelo.canvas = canvas;
+			Pomelo.cxt = cxt;
+			Pomelo.image = image;
+		}
+
+		//加好监听
+		pomelo.on("onAdd",function(data){
+			Pomelo.addBone(data.user);
+		});
+		pomelo.on("onInitBone",function(data){
+			Pomelo.initBone(data.user);
+		});
+		pomelo.on("onMove",function(data){
+
+		});
+	},
 	login : function(account,password){
 		pomelo.request("connector.entryHandler.login",{account:account,password:password},function(info){
 			if(info.msg == "duplicate"){
@@ -176,16 +135,49 @@ var Pomelo = {
 				$("#login-screen").animate({opacity:"0"},500,function(){
 					$("#login-screen").css({"display":"none"});
 				});
+				$("#bg-canvas").attr("user",account);
+				pomelo.request("game.gameHandler.initBone",{uid:account+"&"+password,sid:info.sid});
 			}
 		});
 	},
-	register : function(){
-		//remember to finish
-		pomelo.request("",{},function(){
-
+	register : function(account,password){
+		pomelo.request("connector.entryHandler.login",{account:account,password:password},function(info){
+			if(info.msg == "success"){
+				$("#game-screen").css({"display":"block"});
+				$("#game-screen").animate({opacity:"1"},500);
+				$("#register-screen").animate({opacity:"0"},500,function(){
+					$("#register-screen").css({"display":"none"});
+				});
+				$("#bg-canvas").attr("user",account);
+				pomelo.request("game.gameHandler.initBone",{uid:account+"&"+password,sid:info.sid});
+			}
 		});
 	},
-	initBones : function(){
-		pomelo.request("connector.entryHandler.initBones",{});
+	initBone : function(user){
+		var account = $("#bg-canvas").attr("user");
+		if(account != user.account){
+			var bone = new Bone({
+				name : user.name,
+				x : user.x,
+				y : user.y,
+				img : this.image,
+				cxt : this.cxt
+			});
+			bone.init(this.cxt);
+		}
+	},
+	addBone : function(user){
+		var bone = new Bone({
+			name : user.name,
+			x : user.x,
+			y : user.y,
+			img : this.image,
+			cxt : this.cxt
+		});
+		bone.init(this.cxt);
+		var account = $("#bg-canvas").attr("user");
+		if(account == user.account){
+			bone.addListener(this.canvas);
+		}
 	}
 };

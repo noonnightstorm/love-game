@@ -5,7 +5,6 @@ module.exports = function(app) {
 var Handler = function(app) {
   this.app = app;
 };
-
 /**
  * New client entry chat server.
  *
@@ -40,12 +39,10 @@ handler.login = function(msg,session,next){
 	session.on('closed', onUserLeave.bind(null, self.app));
 	next(null, {
 		code: 200,
-		msg:"success"
+		msg:"success",
+		sid:self.app.get("serverId")
 	});
-
-	console.log(self.app.getServersByType("game"));
-
-	self.app.rpc.game.gameHandler.addUser(session,uid,self.app.get("serverId"),account,true);
+	self.app.rpc.game.gameRemote.addUser(session,uid,self.app.get("serverId"),"channel",true);
 };
 
 var onUserLeave = function(app, session) {

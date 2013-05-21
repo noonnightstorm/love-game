@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express.createServer();
 var router = require('./routes/router');
-var db = require('./db/db');
+var db = require('../shared/db/db');
 
 app.configure(function(){
   app.use(express.methodOverride());

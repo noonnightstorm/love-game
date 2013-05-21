@@ -19,10 +19,6 @@ function connectInit(canvas,cxt){
 		var image = new Image();  
 		image.src = "/image/bone.png";
 		image.onload = function(){
-			//draw a bone
-			/*var bone = new Bone({img:image,cxt:cxt});
-			bone.init(cxt);
-			bone.addListener(canvas);*/
 			pomelo.request("connector.entryHandler.entry", "hello pomelo", function(data) {
 		      console.log(data.msg);
 		  	});

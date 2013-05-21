@@ -1,4 +1,7 @@
 function Bone(options){
+	this.name = options.name||"storm";
+	this.account = options.account||"";
+	this.password = options.password||"";
 	this.x = options.x||100;
 	this.y = options.y||100;
 	this.width = options.width||64;
@@ -7,6 +10,7 @@ function Bone(options){
 	this.init = function(){
 		Bone.prototype.cxt.drawImage(Bone.prototype.img,0,0,64,64,this.x,this.y,this.width,this.height);
 	}
+	Bone.prototype.members = [];
 	Bone.prototype.img = options.img;
 	Bone.prototype.cxt = options.cxt;
 	Bone.prototype.frames = {
@@ -91,6 +95,9 @@ Bone.prototype.go = function(obj,direct_x,direct_y){
 			count = count % 4;
 		},200);
 	}
+}
+Bone.prototype.add = function(obj){
+	obj.members.push(obj);
 }
 Bone.prototype.clean = function(obj){
 	obj.cxt.clearRect(obj.x,obj.y,(obj.width+obj.x),(obj.height+obj.y));
