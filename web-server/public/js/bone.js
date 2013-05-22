@@ -1,14 +1,25 @@
 function Bone(options){
 	this.name = options.name||"storm";
-	this.account = options.account||"";
-	this.password = options.password||"";
+	this.account = options.account||"123456";
 	this.x = options.x||100;
 	this.y = options.y||100;
 	this.width = options.width||64;
 	this.height = options.height||64;
 	this.time = null;
 	this.init = function(){
+		var self = this;
 		Bone.prototype.cxt.drawImage(Bone.prototype.img,0,0,64,64,this.x,this.y,this.width,this.height);
+		pomelo.on("onMove",function(data){
+			if(self.account == data.account){
+				self.go(self,data.direct_x,data.direct_y);
+			}
+		});
+		pomelo.on("onLeave",function(data){
+			if(self.account == data.account){
+				console.log("begin to clean");
+				self.clean(self);
+			}
+		});
 	}
 	Bone.prototype.members = [];
 	Bone.prototype.img = options.img;
@@ -33,7 +44,7 @@ Bone.prototype.addListener = function(obj){
 		}
 		var d = Math.abs(e.layerX-(self.x+self.width/2))+Math.abs(e.layerY-(self.y+self.height));
 		if(d>30){
-			self.go(self,e.layerX-self.width/2,e.layerY-self.height);
+			pomelo.request("game.gameHandler.move",{account:self.account,x:e.layerX-self.width/4,y:e.layerY-self.height/2});
 		}
 	});
 } 
@@ -78,6 +89,8 @@ Bone.prototype.go = function(obj,direct_x,direct_y){
 	}
 	if(map){
 		var count = 0;
+		if(obj.time)
+		clearInterval(obj.time);
 		obj.time = setInterval(function(){
 			obj.clean(obj);
 			obj.cxt.drawImage(obj.img,obj.frames[map][count][0],obj.frames[map][count][1],64,64,obj.x,obj.y,obj.width,obj.height);
@@ -100,5 +113,5 @@ Bone.prototype.add = function(obj){
 	obj.members.push(obj);
 }
 Bone.prototype.clean = function(obj){
-	obj.cxt.clearRect(obj.x,obj.y,(obj.width+obj.x),(obj.height+obj.y));
+	obj.cxt.clearRect(obj.x+10,obj.y+3,obj.width-22,obj.height-8);
 }

@@ -6,7 +6,9 @@ var Schema = mongoose.Schema
 var Person = new Schema({
 	account : String,
 	password : String,
-	name : String
+	name : String,
+	x:Number,
+	y:Number
 });
 
 var Record = new Schema({
@@ -26,7 +28,6 @@ exports.getRecord = function(){
 
 
 exports.check_login = function(req,res){
-	console.log("check_login");
 	Persons.findOne({account:req.params.account,password:req.params.password},function(err,obj){
 		if(!obj){
 			res.writeHead(200, {'content-type': 'text/json' });
@@ -51,7 +52,4 @@ exports.add_user = function(req,res){
 	res.writeHead(200, {'content-type': 'text/json' });
 	res.write( JSON.stringify({ result : "success"}) );
 	res.end('\n');
-}
-exports.person_move = function(uid,x,y){
-	
 }

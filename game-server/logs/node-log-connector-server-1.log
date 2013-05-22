@@ -1330,3 +1330,437 @@
 [2013-05-21 16:57:43.214] [INFO] console - user have left
 [2013-05-21 16:57:45.257] [INFO] console - user have left
 [2013-05-21 16:58:19.971] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-21 18:08:48.502] [INFO] console - user have left
+[2013-05-21 19:36:31.898] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:36:32.890] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:36:33.093] [INFO] console - [32m[2013-05-21 19:36:33.092] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:36:33.135] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:36:33.138] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 19:38:03.875] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:38:04.218] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:38:04.436] [INFO] console - [32m[2013-05-21 19:38:04.435] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:38:04.490] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:38:04.493] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 19:40:38.648] [INFO] console - user have left
+[2013-05-21 19:42:46.662] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:42:47.000] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:42:47.212] [INFO] console - [32m[2013-05-21 19:42:47.212] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:42:47.259] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:42:47.262] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 19:50:53.357] [INFO] console - user have left
+[2013-05-21 19:51:11.631] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "111111&111111"
+[2013-05-21 19:53:07.553] [INFO] console - user have left
+[2013-05-21 19:53:19.005] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-21 19:53:35.549] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:53:35.880] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:53:36.085] [INFO] console - [32m[2013-05-21 19:53:36.084] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:53:36.135] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:53:36.138] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 19:56:07.360] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:56:07.718] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:56:07.937] [INFO] console - [32m[2013-05-21 19:56:07.936] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:56:07.994] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:56:07.997] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 19:57:02.550] [INFO] console - user have left
+[2013-05-21 19:58:34.929] [INFO] console - user have left
+[2013-05-21 19:59:57.599] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 19:59:57.953] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:59:58.166] [INFO] console - [32m[2013-05-21 19:59:58.165] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 19:59:58.227] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 19:59:58.230] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:00:26.656] [INFO] console - user have left
+[2013-05-21 20:01:42.908] [INFO] console - user have left
+[2013-05-21 20:02:00.418] [INFO] console - user have left
+[2013-05-21 20:02:38.801] [INFO] console - user have left
+[2013-05-21 20:03:06.988] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:03:07.310] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:03:07.515] [INFO] console - [32m[2013-05-21 20:03:07.514] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:03:07.560] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:03:07.563] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:06:41.839] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:06:42.165] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:06:42.383] [INFO] console - [32m[2013-05-21 20:06:42.382] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:06:42.436] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:06:42.440] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:07:39.879] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:07:40.210] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:07:40.417] [INFO] console - [32m[2013-05-21 20:07:40.415] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:07:40.475] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:07:40.477] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:08:20.094] [INFO] console - user have left
+[2013-05-21 20:08:24.047] [INFO] console - user have left
+[2013-05-21 20:09:58.786] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:09:59.108] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:09:59.318] [INFO] console - [32m[2013-05-21 20:09:59.317] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:09:59.364] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:09:59.367] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:11:26.862] [INFO] console - user have left
+[2013-05-21 20:18:01.415] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:18:01.730] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:18:01.930] [INFO] console - [32m[2013-05-21 20:18:01.929] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:18:01.980] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:18:01.983] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:23:20.552] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:23:20.878] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:23:21.085] [INFO] console - [32m[2013-05-21 20:23:21.084] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:23:21.133] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:23:21.139] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:24:31.324] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:24:31.661] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:24:31.871] [INFO] console - [32m[2013-05-21 20:24:31.869] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:24:31.924] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:24:31.930] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-21 20:24:52.922] [INFO] console - user have left
+[2013-05-21 20:25:09.221] [INFO] console - user have left
+[2013-05-21 20:25:52.887] [INFO] console - user have left
+[2013-05-21 20:27:02.717] [INFO] console - user have left
+[2013-05-21 20:27:48.533] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-21 20:27:48.856] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:27:49.065] [INFO] console - [32m[2013-05-21 20:27:49.063] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-21 20:27:49.113] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-21 20:27:49.116] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:31:47.780] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:31:48.824] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:31:49.254] [INFO] console - [32m[2013-05-22 14:31:49.253] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:31:49.300] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:31:49.307] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:36:08.611] [INFO] console - user have left
+[2013-05-22 14:36:09.549] [INFO] console - user have left
+[2013-05-22 14:36:14.102] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-22 14:36:15.118] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-22 14:36:15.123] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-22 14:36:17.283] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-22 14:36:17.284] [DEBUG] /usr/lib/node_modules/pomelo/lib/common/service/sessionService.js - fail to send message by uid for session not exist. uid: "123456&123456"
+[2013-05-22 14:36:32.829] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:36:33.153] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:36:33.357] [INFO] console - [32m[2013-05-22 14:36:33.356] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:36:33.402] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:36:33.404] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:38:48.143] [INFO] console - user have left
+[2013-05-22 14:38:49.305] [INFO] console - user have left
+[2013-05-22 14:38:52.618] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:38:52.936] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:38:53.135] [INFO] console - [32m[2013-05-22 14:38:53.134] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:38:53.183] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:38:53.185] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:41:34.414] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:41:34.729] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:41:34.984] [INFO] console - [32m[2013-05-22 14:41:34.983] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:41:35.034] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:41:35.037] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:43:00.449] [INFO] console - user have left
+[2013-05-22 14:43:21.768] [INFO] console - user have left
+[2013-05-22 14:43:46.036] [INFO] console - user have left
+[2013-05-22 14:44:23.526] [INFO] console - user have left
+[2013-05-22 14:45:17.905] [INFO] console - user have left
+[2013-05-22 14:46:14.206] [INFO] console - user have left
+[2013-05-22 14:46:44.062] [INFO] console - user have left
+[2013-05-22 14:47:21.775] [INFO] console - user have left
+[2013-05-22 14:47:42.064] [INFO] console - user have left
+[2013-05-22 14:48:19.242] [INFO] console - user have left
+[2013-05-22 14:48:23.119] [INFO] console - user have left
+[2013-05-22 14:48:27.900] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:48:28.233] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:48:28.455] [INFO] console - [32m[2013-05-22 14:48:28.454] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:48:28.503] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:48:28.506] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:49:31.779] [INFO] console - user have left
+[2013-05-22 14:50:11.076] [INFO] console - user have left
+[2013-05-22 14:50:31.692] [INFO] console - user have left
+[2013-05-22 14:50:49.784] [INFO] console - user have left
+[2013-05-22 14:51:09.040] [INFO] console - user have left
+[2013-05-22 14:51:29.137] [INFO] console - user have left
+[2013-05-22 14:52:06.070] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:52:06.403] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:52:06.613] [INFO] console - [32m[2013-05-22 14:52:06.612] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:52:06.660] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:52:06.662] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:58:32.688] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 14:58:33.002] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:58:33.215] [INFO] console - [32m[2013-05-22 14:58:33.214] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 14:58:33.260] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 14:58:33.265] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 14:59:02.320] [INFO] console - duplicate log in
+[2013-05-22 15:01:11.487] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.507] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.526] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.547] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.566] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.587] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.607] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.626] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.646] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.668] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.687] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.706] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.727] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.748] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.768] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.788] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.808] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.827] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.852] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.867] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.888] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.907] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.927] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Socket.send (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:71:8)
+    at Socket.sendBatch (/usr/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:76:10)
+    at SessionService.flush (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:301:26)
+    at Timer.<anonymous> (/usr/lib/node_modules/pomelo/lib/components/session.js:47:20)
+    at Timer.timer.ontimeout (timers.js:247:14)
+[2013-05-22 15:01:11.945] [INFO] console - user have left
+[2013-05-22 15:01:15.717] [INFO] console - user have left
+[2013-05-22 15:01:22.743] [INFO] console - user have left
+[2013-05-22 15:15:50.746] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:15:51.085] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:15:51.310] [INFO] console - [32m[2013-05-22 15:15:51.309] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:15:51.357] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:15:51.359] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:30:32.850] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:30:33.205] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:30:33.399] [INFO] console - [32m[2013-05-22 15:30:33.399] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:30:33.437] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:30:33.439] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:31:02.866] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:31:03.213] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:31:03.397] [INFO] console - [32m[2013-05-22 15:31:03.396] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:31:03.440] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:31:03.444] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:31:11.857] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:31:12.212] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:31:12.434] [INFO] console - [32m[2013-05-22 15:31:12.432] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:31:12.478] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:31:12.481] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:31:47.198] [INFO] console - user have left
+[2013-05-22 15:31:47.214] [ERROR] console -  Caught exception: TypeError: Cannot read property 'rpc' of undefined
+    at onUserLeave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:55:10)
+    at EventEmitter.emit (events.js:117:20)
+    at Session.closed (/usr/lib/node_modules/pomelo/lib/common/service/sessionService.js:386:8)
+    at EventEmitter.emit (events.js:117:20)
+    at WebSocket.EventEmitter.emit (events.js:117:20)
+    at WebSocket.cleanupWebsocketResources (/usr/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:895:16
+    at process._tickCallback (node.js:415:13)
+[2013-05-22 15:32:43.458] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:32:43.788] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:32:43.996] [INFO] console - [32m[2013-05-22 15:32:43.995] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:32:44.037] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:32:44.040] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:33:35.747] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:33:36.091] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:33:36.317] [INFO] console - [32m[2013-05-22 15:33:36.316] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:33:36.359] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:33:36.361] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:34:18.704] [INFO] console - user have left
+[2013-05-22 15:35:17.272] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:35:17.619] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:35:17.841] [INFO] console - [32m[2013-05-22 15:35:17.840] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:35:17.881] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:35:17.884] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:35:39.848] [INFO] console - user have left
+[2013-05-22 15:36:06.858] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:36:07.183] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:36:07.393] [INFO] console - [32m[2013-05-22 15:36:07.392] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:36:07.442] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:36:07.444] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:36:27.248] [INFO] console - user have left
+[2013-05-22 15:37:16.549] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:37:16.872] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:37:17.090] [INFO] console - [32m[2013-05-22 15:37:17.089] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:37:17.132] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:37:17.134] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:37:38.225] [INFO] console - user have left
+[2013-05-22 15:38:13.684] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:38:14.007] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:38:14.216] [INFO] console - [32m[2013-05-22 15:38:14.214] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:38:14.273] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:38:14.275] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:38:30.464] [INFO] console - user have left
+[2013-05-22 15:39:08.404] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:39:08.734] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:39:08.954] [INFO] console - [32m[2013-05-22 15:39:08.953] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:39:09.002] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:39:09.006] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:39:21.282] [INFO] console - user have left
+[2013-05-22 15:40:40.305] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:40:40.627] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:40:40.840] [INFO] console - [32m[2013-05-22 15:40:40.839] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:40:40.882] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:40:40.885] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:40:51.501] [ERROR] console -  Caught exception: ReferenceError: app is not defined
+    at handler.login (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/connector/handler/entryHandler.js:45:51)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/usr/lib/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-22 15:41:31.948] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-05-22 15:41:32.289] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:41:32.526] [INFO] console - [32m[2013-05-22 15:41:32.525] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-22 15:41:32.568] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-05-22 15:41:32.571] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-05-22 15:41:42.512] [INFO] console - user have left
+[2013-05-22 15:42:42.309] [INFO] console - user have left
+[2013-05-22 15:42:47.399] [INFO] console - user have left

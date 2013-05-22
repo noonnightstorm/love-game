@@ -30,3 +30,16 @@ handler.initBone = function(msg, session, next){
 		});
 	}
 }
+
+handler.move = function(msg,session,next){
+	var channel = this.channelService.getChannel("channel",true);
+	db.getPerson().update({account:msg.account},{$set:{x:msg.x,y:msg.y}},function(err,obj){
+		var param = {
+			route : "onMove" ,
+			account : msg.account,
+			direct_x : msg.x,
+			direct_y : msg.y
+		};
+		channel.pushMessage(param);
+	});
+}

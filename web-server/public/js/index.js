@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$("#goto-register-a").click(enter_register);
 	$("#register-submit-btn").click(send_register);
 	$("#goto-login-a").click(enter_login);
-	var host = "127.0.0.1";
+	var host = "172.26.14.222";
 	var port = "3010";
 	pomelo.init({
     	host: host,
@@ -120,9 +120,6 @@ var Pomelo = {
 		pomelo.on("onInitBone",function(data){
 			Pomelo.initBone(data.user);
 		});
-		pomelo.on("onMove",function(data){
-
-		});
 	},
 	login : function(account,password){
 		pomelo.request("connector.entryHandler.login",{account:account,password:password},function(info){
@@ -157,6 +154,7 @@ var Pomelo = {
 		var account = $("#bg-canvas").attr("user");
 		if(account != user.account){
 			var bone = new Bone({
+				account : user.account,
 				name : user.name,
 				x : user.x,
 				y : user.y,
@@ -168,6 +166,7 @@ var Pomelo = {
 	},
 	addBone : function(user){
 		var bone = new Bone({
+			account : user.account,
 			name : user.name,
 			x : user.x,
 			y : user.y,

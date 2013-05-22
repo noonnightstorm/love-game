@@ -51,5 +51,5 @@ var onUserLeave = function(app, session) {
 	}
 	console.log("user have left");
 	//remember to kick the session on gamesever
-	//app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
+	app.rpc.game.gameRemote.leave(session,session.uid,app.get('serverId'),"channel",true);
 };

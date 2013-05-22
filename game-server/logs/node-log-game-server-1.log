@@ -1046,3 +1046,898 @@
 [2013-05-21 16:57:02.081] [INFO] console - [32m[2013-05-21 16:57:02.080] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
 [2013-05-21 16:57:02.130] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
 [2013-05-21 16:57:02.135] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:36:31.899] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:36:33.007] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:36:33.020] [INFO] console - [32m[2013-05-21 19:36:33.019] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:36:33.065] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:36:33.066] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:38:03.906] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:38:04.408] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:38:04.421] [INFO] console - [32m[2013-05-21 19:38:04.420] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:38:04.473] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:38:04.475] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:38:35.440] [INFO] console - { x: 229, y: 139, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:39.080] [INFO] console - { x: 58, y: 209, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:40.407] [INFO] console - { x: 325, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:41.040] [INFO] console - { x: 199, y: 244, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:41.567] [INFO] console - { x: 131, y: 211, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:42.415] [INFO] console - { x: 92, y: 143, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:42.904] [INFO] console - { x: -24, y: -46, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:55.656] [INFO] console - { x: -18, y: -52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:56.505] [INFO] console - { x: -18, y: -52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:56.872] [INFO] console - { x: 24, y: 48, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:57.279] [INFO] console - { x: 24, y: 163, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:57.880] [INFO] console - { x: 152, y: 152, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:58.305] [INFO] console - { x: 9, y: 149, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:58.895] [INFO] console - { x: 46, y: 36, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:38:59.495] [INFO] console - { x: 18, y: -4, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:00.008] [INFO] console - { x: 25, y: -14, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:00.415] [INFO] console - { x: 86, y: 8, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:00.887] [INFO] console - { x: 161, y: 20, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:01.311] [INFO] console - { x: 159, y: 120, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:01.776] [INFO] console - { x: 109, y: 171, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:02.208] [INFO] console - { x: 10, y: 16, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:02.648] [INFO] console - { x: 6, y: -8, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:03.735] [INFO] console - { x: -3, y: -44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:04.183] [INFO] console - { x: 95, y: 6, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:04.567] [INFO] console - { x: 177, y: 16, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:05.024] [INFO] console - { x: 88, y: 170, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:05.344] [INFO] console - { x: -13, y: 196, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:05.674] [INFO] console - { x: -21, y: 13, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:06.160] [INFO] console - { x: 67, y: 28, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:06.560] [INFO] console - { x: 132, y: 51, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:07.575] [INFO] console - { x: -30, y: 33, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:08.024] [INFO] console - { x: 32, y: 26, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:08.496] [INFO] console - { x: 56, y: -12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:08.880] [INFO] console - { x: 203, y: 116, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:39:09.215] [INFO] console - { x: -17, y: 42, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:46.695] [INFO] console - { x: 244, y: 189, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:46.697] [INFO] console - { x: 244, y: 189, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:48.055] [INFO] console - { x: -8, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:48.057] [INFO] console - { x: -8, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:49.384] [INFO] console - { x: -30, y: -56, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:49.385] [INFO] console - { x: -30, y: -56, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:50.488] [INFO] console - { x: -27, y: -61, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:50.493] [INFO] console - { x: -27, y: -61, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:51.044] [INFO] console - { x: 12, y: 2, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:51.048] [INFO] console - { x: 12, y: 2, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:51.482] [INFO] console - { x: -1, y: 98, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:51.483] [INFO] console - { x: -1, y: 98, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:52.072] [INFO] console - { x: 24, y: 126, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:52.076] [INFO] console - { x: 24, y: 126, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:53.098] [INFO] console - { x: -21, y: -4, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:53.104] [INFO] console - { x: -21, y: -4, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:54.584] [INFO] console - { x: -28, y: -35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:54.585] [INFO] console - { x: -28, y: -35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:55.680] [INFO] console - { x: 59, y: 76, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:55.681] [INFO] console - { x: 59, y: 76, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:56.544] [INFO] console - { x: 60, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:56.545] [INFO] console - { x: 60, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:57.864] [INFO] console - { x: -30, y: -52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:57.865] [INFO] console - { x: -30, y: -52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:58.568] [INFO] console - { x: 35, y: 119, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:58.572] [INFO] console - { x: 35, y: 119, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:59.337] [INFO] console - { x: 63, y: 109, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:40:59.339] [INFO] console - { x: 63, y: 109, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:00.023] [INFO] console - { x: 47, y: 72, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:00.027] [INFO] console - { x: 47, y: 72, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:00.595] [INFO] console - { x: 4, y: 39, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:00.602] [INFO] console - { x: 4, y: 39, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:01.073] [INFO] console - { x: 8, y: 84, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:01.074] [INFO] console - { x: 8, y: 84, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:01.456] [INFO] console - { x: 76, y: 66, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:01.457] [INFO] console - { x: 76, y: 66, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.033] [INFO] console - { x: 84, y: 79, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.035] [INFO] console - { x: 84, y: 79, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.513] [INFO] console - { x: 136, y: 53, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.514] [INFO] console - { x: 136, y: 53, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.968] [INFO] console - { x: 141, y: 14, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:02.970] [INFO] console - { x: 141, y: 14, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:03.267] [INFO] console - { x: 391, y: 84, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:03.271] [INFO] console - { x: 391, y: 84, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:03.712] [INFO] console - { x: 132, y: 230, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:03.716] [INFO] console - { x: 132, y: 230, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:04.241] [INFO] console - { x: 23, y: 8, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:04.242] [INFO] console - { x: 23, y: 8, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:05.151] [INFO] console - { x: 44, y: 13, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:05.153] [INFO] console - { x: 44, y: 13, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:05.784] [INFO] console - { x: 30, y: 19, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:05.785] [INFO] console - { x: 30, y: 19, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:11.440] [INFO] console - { x: 56, y: 61, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:11.442] [INFO] console - { x: 56, y: 61, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:12.136] [INFO] console - { x: 31, y: 121, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:12.137] [INFO] console - { x: 31, y: 121, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:12.784] [INFO] console - { x: 69, y: 155, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:12.786] [INFO] console - { x: 69, y: 155, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:14.359] [INFO] console - { x: 51, y: 32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:14.360] [INFO] console - { x: 51, y: 32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:17.760] [INFO] console - { x: 52, y: 30, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:17.761] [INFO] console - { x: 52, y: 30, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:21.208] [INFO] console - { x: 63, y: 44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:21.209] [INFO] console - { x: 63, y: 44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:22.121] [INFO] console - { x: 60, y: 44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:22.122] [INFO] console - { x: 60, y: 44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:22.655] [INFO] console - { x: 46, y: 35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:22.657] [INFO] console - { x: 46, y: 35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:23.024] [INFO] console - { x: 18, y: 7, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:23.025] [INFO] console - { x: 18, y: 7, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:23.728] [INFO] console - { x: 16, y: 6, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:23.729] [INFO] console - { x: 16, y: 6, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:24.384] [INFO] console - { x: 16, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:24.386] [INFO] console - { x: 16, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:26.384] [INFO] console - { x: 98, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:26.384] [INFO] console - { x: 98, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:27.032] [INFO] console - { x: 96, y: 40, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:27.033] [INFO] console - { x: 96, y: 40, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:27.864] [INFO] console - { x: 89, y: 47, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:27.865] [INFO] console - { x: 89, y: 47, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:28.880] [INFO] console - { x: -1, y: -32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:28.881] [INFO] console - { x: -1, y: -32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:29.975] [INFO] console - { x: -1, y: -32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:29.977] [INFO] console - { x: -1, y: -32, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:30.807] [INFO] console - { x: -1, y: -19, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:30.810] [INFO] console - { x: -1, y: -19, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:32.336] [INFO] console - { x: 3, y: -27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:32.337] [INFO] console - { x: 3, y: -27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:33.184] [INFO] console - { x: 3, y: -27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:33.188] [INFO] console - { x: 3, y: -27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:37.256] [INFO] console - { x: 82, y: 85, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:37.258] [INFO] console - { x: 82, y: 85, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:38.144] [INFO] console - { x: 131, y: 82, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:38.146] [INFO] console - { x: 131, y: 82, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:39.286] [INFO] console - { x: 131, y: 82, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:39.288] [INFO] console - { x: 131, y: 82, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:39.935] [INFO] console - { x: 74, y: 81, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:39.937] [INFO] console - { x: 74, y: 81, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:40.383] [INFO] console - { x: 120, y: 85, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:40.384] [INFO] console - { x: 120, y: 85, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:40.825] [INFO] console - { x: 63, y: 83, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:40.826] [INFO] console - { x: 63, y: 83, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:47.815] [INFO] console - { x: 98, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:47.816] [INFO] console - { x: 98, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:48.296] [INFO] console - { x: 92, y: 52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:48.298] [INFO] console - { x: 92, y: 52, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:48.689] [INFO] console - { x: 109, y: 35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:48.691] [INFO] console - { x: 109, y: 35, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:49.208] [INFO] console - { x: 95, y: 65, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:41:49.210] [INFO] console - { x: 95, y: 65, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:42:46.667] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:42:47.193] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:42:47.207] [INFO] console - [32m[2013-05-21 19:42:47.206] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:42:47.256] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:42:47.261] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:42:58.728] [INFO] console - { x: 111, y: 186, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:42:59.840] [INFO] console - { x: 71, y: 177, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:00.431] [INFO] console - { x: 95, y: 199, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:00.920] [INFO] console - { x: 131, y: 161, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:01.326] [INFO] console - { x: 81, y: 135, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:01.695] [INFO] console - { x: 69, y: 109, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:02.183] [INFO] console - { x: 82, y: 77, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:02.736] [INFO] console - { x: 55, y: -4, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:03.520] [INFO] console - { x: 1, y: -1, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:04.727] [INFO] console - { x: 6, y: 4, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:05.328] [INFO] console - { x: 8, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:05.728] [INFO] console - { x: 6, y: 23, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:06.089] [INFO] console - { x: -16, y: 8, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:06.519] [INFO] console - { x: 16, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:07.032] [INFO] console - { x: 0, y: 18, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:07.385] [INFO] console - { x: 16, y: 51, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:07.839] [INFO] console - { x: 21, y: 50, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:08.248] [INFO] console - { x: -1, y: 128, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:08.680] [INFO] console - { x: 68, y: 75, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:09.192] [INFO] console - { x: 94, y: 98, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:09.631] [INFO] console - { x: 24, y: 62, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:09.992] [INFO] console - { x: 29, y: 30, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:10.424] [INFO] console - { x: 21, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:10.999] [INFO] console - { x: 2, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:11.568] [INFO] console - { x: -13, y: -3, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:13.696] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:14.152] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:14.368] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:14.584] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:14.800] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:14.991] [INFO] console - { x: -15, y: -17, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:15.352] [INFO] console - { x: 3, y: 22, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:15.616] [INFO] console - { x: -1, y: 34, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:15.887] [INFO] console - { x: -1, y: 34, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:16.144] [INFO] console - { x: -1, y: 38, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:16.376] [INFO] console - { x: -1, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:16.608] [INFO] console - { x: -1, y: 48, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:16.824] [INFO] console - { x: -2, y: 53, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:17.056] [INFO] console - { x: -2, y: 55, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:17.280] [INFO] console - { x: -1, y: 47, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:17.488] [INFO] console - { x: 3, y: 27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:17.712] [INFO] console - { x: 8, y: 9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:17.936] [INFO] console - { x: 14, y: -9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:18.159] [INFO] console - { x: 15, y: -20, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:18.383] [INFO] console - { x: 15, y: -31, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:18.631] [INFO] console - { x: 15, y: -31, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:18.915] [INFO] console - { x: 8, y: -18, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:19.127] [INFO] console - { x: 7, y: -15, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:19.415] [INFO] console - { x: 6, y: -9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:19.631] [INFO] console - { x: 6, y: -9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:19.832] [INFO] console - { x: 6, y: -9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:20.063] [INFO] console - { x: 1, y: 1, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:20.272] [INFO] console - { x: 0, y: 3, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:43:20.417] [INFO] console - { x: 0, y: 12, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:53:35.553] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:53:36.052] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:53:36.067] [INFO] console - [32m[2013-05-21 19:53:36.066] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:53:36.113] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:53:36.114] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:56:07.361] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:56:07.902] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:56:07.915] [INFO] console - [32m[2013-05-21 19:56:07.914] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:56:07.961] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:56:07.962] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 19:56:25.929] [INFO] console - { x: 311, y: 232, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:27.232] [INFO] console - { x: 189, y: 267, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:27.848] [INFO] console - { x: 296, y: 97, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:28.347] [INFO] console - { x: 36, y: 95, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:28.790] [INFO] console - { x: 4, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:29.161] [INFO] console - { x: 217, y: 67, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:29.544] [INFO] console - { x: 230, y: 116, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:29.976] [INFO] console - { x: 104, y: 162, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:30.728] [INFO] console - { x: 9, y: 49, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:31.113] [INFO] console - { x: 88, y: 44, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:56:31.473] [INFO] console - { x: 206, y: 89, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:10.633] [INFO] console - { x: 242, y: 204, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:10.634] [INFO] console - { x: 242, y: 204, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:11.289] [INFO] console - { x: 301, y: 129, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:11.293] [INFO] console - { x: 301, y: 129, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:11.696] [INFO] console - { x: 225, y: 92, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:11.698] [INFO] console - { x: 225, y: 92, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.048] [INFO] console - { x: 5, y: 27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.049] [INFO] console - { x: 5, y: 27, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.451] [INFO] console - { x: 129, y: 9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.452] [INFO] console - { x: 129, y: 9, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.816] [INFO] console - { x: 280, y: 59, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:12.820] [INFO] console - { x: 280, y: 59, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:13.153] [INFO] console - { x: 320, y: 151, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:13.154] [INFO] console - { x: 320, y: 151, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:13.513] [INFO] console - { x: 167, y: 139, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:57:13.514] [INFO] console - { x: 167, y: 139, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.096] [INFO] console - { x: 151, y: 108, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.098] [INFO] console - { x: 151, y: 108, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.099] [INFO] console - { x: 151, y: 108, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.580] [INFO] console - { x: 189, y: 173, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.583] [INFO] console - { x: 189, y: 173, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.584] [INFO] console - { x: 189, y: 173, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.904] [INFO] console - { x: 63, y: 191, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.905] [INFO] console - { x: 63, y: 191, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:42.908] [INFO] console - { x: 63, y: 191, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:43.240] [INFO] console - { x: 38, y: 149, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:43.245] [INFO] console - { x: 38, y: 149, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:43.247] [INFO] console - { x: 38, y: 149, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.384] [INFO] console - { x: 409, y: 100, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.386] [INFO] console - { x: 409, y: 100, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.387] [INFO] console - { x: 409, y: 100, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.872] [INFO] console - { x: 267, y: 99, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.873] [INFO] console - { x: 267, y: 99, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:45.875] [INFO] console - { x: 267, y: 99, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:46.233] [INFO] console - { x: 147, y: 181, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:46.234] [INFO] console - { x: 147, y: 181, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:58:46.235] [INFO] console - { x: 147, y: 181, __route__: 'game.gameHandler.move' }
+[2013-05-21 19:59:57.605] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 19:59:58.151] [INFO] console - info: 'socket.io started'
+[2013-05-21 19:59:58.164] [INFO] console - [32m[2013-05-21 19:59:58.163] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 19:59:58.215] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 19:59:58.216] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:00:33.785] [INFO] console - { x: 287, y: 108, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:33.787] [INFO] console - { x: 287, y: 108, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:34.456] [INFO] console - { x: 178, y: 154, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:34.458] [INFO] console - { x: 178, y: 154, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:34.929] [INFO] console - { x: 103, y: 24, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:34.930] [INFO] console - { x: 103, y: 24, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:35.353] [INFO] console - { x: 36, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:35.356] [INFO] console - { x: 36, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:35.722] [INFO] console - { x: 26, y: 134, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:35.723] [INFO] console - { x: 26, y: 134, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.081] [INFO] console - { x: 131, y: 155, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.082] [INFO] console - { x: 131, y: 155, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.464] [INFO] console - { x: 269, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.466] [INFO] console - { x: 269, y: 63, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.817] [INFO] console - { x: 147, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:00:36.818] [INFO] console - { x: 147, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.209] [INFO] console - { x: 258, y: 183, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.210] [INFO] console - { x: 258, y: 183, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.211] [INFO] console - { x: 258, y: 183, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.777] [INFO] console - { x: 69, y: 56, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.778] [INFO] console - { x: 69, y: 56, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:56.779] [INFO] console - { x: 69, y: 56, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:57.211] [INFO] console - { x: 150, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:57.213] [INFO] console - { x: 150, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:01:57.215] [INFO] console - { x: 150, y: 43, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:31.625] [INFO] console - { x: 282, y: 153, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:31.626] [INFO] console - { x: 282, y: 153, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:31.627] [INFO] console - { x: 282, y: 153, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:31.629] [INFO] console - { x: 282, y: 153, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:32.441] [INFO] console - { x: 164, y: 227, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:32.442] [INFO] console - { x: 164, y: 227, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:32.444] [INFO] console - { x: 164, y: 227, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:32.447] [INFO] console - { x: 164, y: 227, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.065] [INFO] console - { x: 193, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.070] [INFO] console - { x: 193, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.071] [INFO] console - { x: 193, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.074] [INFO] console - { x: 193, y: 45, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.531] [INFO] console - { x: 391, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.534] [INFO] console - { x: 391, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.537] [INFO] console - { x: 391, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.538] [INFO] console - { x: 391, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.905] [INFO] console - { x: 335, y: 174, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.907] [INFO] console - { x: 335, y: 174, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.907] [INFO] console - { x: 335, y: 174, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:33.909] [INFO] console - { x: 335, y: 174, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:35.578] [INFO] console - { x: 298, y: 138, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:35.580] [INFO] console - { x: 298, y: 138, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:35.581] [INFO] console - { x: 298, y: 138, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:35.585] [INFO] console - { x: 298, y: 138, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.089] [INFO] console - { x: 226, y: 74, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.097] [INFO] console - { x: 226, y: 74, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.097] [INFO] console - { x: 226, y: 74, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.098] [INFO] console - { x: 226, y: 74, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.601] [INFO] console - { x: 341, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.602] [INFO] console - { x: 341, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.604] [INFO] console - { x: 341, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:02:36.605] [INFO] console - { x: 341, y: 69, __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:01.714] [INFO] console - { account: '123456',
+  x: 264,
+  y: 176,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:01.717] [INFO] console - { account: '123456',
+  x: 264,
+  y: 176,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:01.718] [INFO] console - { account: '123456',
+  x: 264,
+  y: 176,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:01.719] [INFO] console - { account: '123456',
+  x: 264,
+  y: 176,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:01.723] [INFO] console - { account: '123456',
+  x: 264,
+  y: 176,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.185] [INFO] console - { account: '123456',
+  x: 125,
+  y: 168,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.188] [INFO] console - { account: '123456',
+  x: 125,
+  y: 168,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.192] [INFO] console - { account: '123456',
+  x: 125,
+  y: 168,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.192] [INFO] console - { account: '123456',
+  x: 125,
+  y: 168,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.197] [INFO] console - { account: '123456',
+  x: 125,
+  y: 168,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.521] [INFO] console - { account: '123456',
+  x: 55,
+  y: 81,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.523] [INFO] console - { account: '123456',
+  x: 55,
+  y: 81,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.524] [INFO] console - { account: '123456',
+  x: 55,
+  y: 81,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.525] [INFO] console - { account: '123456',
+  x: 55,
+  y: 81,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.526] [INFO] console - { account: '123456',
+  x: 55,
+  y: 81,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.816] [INFO] console - { account: '123456',
+  x: 241,
+  y: 61,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.818] [INFO] console - { account: '123456',
+  x: 241,
+  y: 61,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.819] [INFO] console - { account: '123456',
+  x: 241,
+  y: 61,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.820] [INFO] console - { account: '123456',
+  x: 241,
+  y: 61,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:02.822] [INFO] console - { account: '123456',
+  x: 241,
+  y: 61,
+  __route__: 'game.gameHandler.move' }
+[2013-05-21 20:03:06.989] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:03:07.469] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:03:07.481] [INFO] console - [32m[2013-05-21 20:03:07.480] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:03:07.523] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:03:07.524] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:06:41.846] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:06:42.382] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:06:42.398] [INFO] console - [32m[2013-05-21 20:06:42.397] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:06:42.452] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:06:42.453] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:06:51.672] [ERROR] console -  Caught exception: TypeError: Object #<Object> has no method 'getPeron'
+    at handler.move (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/handler/gameHandler.js:36:5)
+    at Service.handle (/usr/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/usr/lib/node_modules/pomelo/lib/server/server.js:229:25)
+    at next (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/usr/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/usr/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/usr/lib/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/usr/lib/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/usr/lib/node_modules/pomelo/lib/components/server.js:54:15)
+    at Remote.forwardMessage (/usr/lib/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:38:10)
+[2013-05-21 20:07:39.886] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:07:40.391] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:07:40.404] [INFO] console - [32m[2013-05-21 20:07:40.403] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:07:40.459] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:07:40.461] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:09:58.789] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:09:59.280] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:09:59.292] [INFO] console - [32m[2013-05-21 20:09:59.291] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:09:59.339] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:09:59.340] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:18:01.417] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:18:01.906] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:18:01.919] [INFO] console - [32m[2013-05-21 20:18:01.918] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:18:01.966] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:18:01.967] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:18:19.822] [INFO] console - 1
+[2013-05-21 20:18:20.843] [INFO] console - 1
+[2013-05-21 20:18:21.208] [INFO] console - 1
+[2013-05-21 20:18:23.778] [INFO] console - 1
+[2013-05-21 20:18:24.306] [INFO] console - 1
+[2013-05-21 20:18:24.762] [INFO] console - 1
+[2013-05-21 20:18:25.266] [INFO] console - 1
+[2013-05-21 20:23:20.587] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:23:21.104] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:23:21.121] [INFO] console - [32m[2013-05-21 20:23:21.120] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:23:21.168] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:23:21.169] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:23:32.899] [INFO] console - 1
+[2013-05-21 20:23:32.899] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 144,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:23:38.251] [INFO] console - 1
+[2013-05-21 20:23:38.258] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 145,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:23:39.306] [INFO] console - 1
+[2013-05-21 20:23:39.307] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 141,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:23:40.499] [INFO] console - 1
+[2013-05-21 20:23:40.500] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 142,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:23:41.290] [INFO] console - 1
+[2013-05-21 20:23:41.291] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 143,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:23:41.874] [INFO] console - 1
+[2013-05-21 20:23:41.875] [INFO] console - { updatedExisting: true,
+  n: 1,
+  connectionId: 144,
+  err: null,
+  ok: 1 }
+[2013-05-21 20:24:31.355] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:24:31.873] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:24:31.887] [INFO] console - [32m[2013-05-21 20:24:31.886] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:24:31.938] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:24:31.939] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-21 20:27:48.538] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-21 20:27:49.035] [INFO] console - info: 'socket.io started'
+[2013-05-21 20:27:49.049] [INFO] console - [32m[2013-05-21 20:27:49.048] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-21 20:27:49.104] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-21 20:27:49.106] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:31:47.786] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:31:49.250] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:31:49.262] [INFO] console - [32m[2013-05-22 14:31:49.261] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:31:49.319] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:31:49.320] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:36:32.832] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:36:33.320] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:36:33.334] [INFO] console - [32m[2013-05-22 14:36:33.333] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:36:33.380] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:36:33.382] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:38:52.620] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:38:53.103] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:38:53.116] [INFO] console - [32m[2013-05-22 14:38:53.115] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:38:53.160] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:38:53.161] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:41:34.421] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:41:34.954] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:41:34.970] [INFO] console - [32m[2013-05-22 14:41:34.969] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:41:35.025] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:41:35.027] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:48:27.904] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:48:28.411] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:48:28.427] [INFO] console - [32m[2013-05-22 14:48:28.426] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:48:28.473] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:48:28.474] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:52:06.069] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:52:06.574] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:52:06.587] [INFO] console - [32m[2013-05-22 14:52:06.586] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:52:06.636] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:52:06.637] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 14:58:32.689] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 14:58:33.179] [INFO] console - info: 'socket.io started'
+[2013-05-22 14:58:33.192] [INFO] console - [32m[2013-05-22 14:58:33.191] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 14:58:33.235] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 14:58:33.236] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:15:50.753] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:15:51.269] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:15:51.283] [INFO] console - [32m[2013-05-22 15:15:51.282] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:15:51.324] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:15:51.325] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:30:32.852] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:30:33.186] [ERROR] console -  Caught exception: SyntaxError: Unexpected token ;
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at loadFile (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadRemoteServices (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/server.js:8:16)
+[2013-05-22 15:31:02.870] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:31:03.202] [ERROR] console -  Caught exception: SyntaxError: Unexpected token ;
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at loadFile (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/usr/lib/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadRemoteServices (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/server.js:8:16)
+[2013-05-22 15:31:11.861] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:31:12.404] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:31:12.419] [INFO] console - [32m[2013-05-22 15:31:12.418] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:31:12.468] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:31:12.469] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:32:43.466] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:32:43.999] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:32:44.014] [INFO] console - [32m[2013-05-22 15:32:44.012] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:32:44.060] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:32:44.061] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:33:35.746] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:33:36.247] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:33:36.260] [INFO] console - [32m[2013-05-22 15:33:36.259] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:33:36.310] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:33:36.311] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:34:18.714] [ERROR] console -  Caught exception: ReferenceError: name is not defined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:28:47)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:35:17.268] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:35:17.777] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:35:17.791] [INFO] console - [32m[2013-05-22 15:35:17.790] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:35:17.844] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:35:17.845] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:35:39.849] [INFO] console - { route: 'onLeave', account: '111111' }
+[2013-05-22 15:35:39.858] [ERROR] console -  Caught exception: TypeError: Cannot call method 'pushMessage' of undefined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:38:10)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:36:06.860] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:36:07.365] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:36:07.379] [INFO] console - [32m[2013-05-22 15:36:07.378] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:36:07.430] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:36:07.431] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:36:27.249] [INFO] console - undefined
+[2013-05-22 15:36:27.250] [INFO] console - { route: 'onLeave', account: '111111' }
+[2013-05-22 15:36:27.265] [ERROR] console -  Caught exception: TypeError: Cannot call method 'pushMessage' of undefined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:39:10)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:37:16.553] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:37:17.060] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:37:17.074] [INFO] console - [32m[2013-05-22 15:37:17.073] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:37:17.118] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:37:17.119] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:37:38.226] [INFO] console - [Function]
+[2013-05-22 15:37:38.227] [INFO] console - { route: 'onLeave', account: '111111' }
+[2013-05-22 15:37:38.239] [ERROR] console -  Caught exception: TypeError: Cannot call method 'pushMessage' of undefined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:39:10)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:38:13.688] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:38:14.188] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:38:14.202] [INFO] console - [32m[2013-05-22 15:38:14.201] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:38:14.257] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:38:14.258] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:38:30.465] [INFO] console - [Function]
+[2013-05-22 15:38:30.465] [INFO] console - { route: 'onLeave', account: '111111' }
+[2013-05-22 15:38:30.474] [ERROR] console -  Caught exception: TypeError: Cannot call method 'pushMessage' of undefined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:39:10)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:39:08.405] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:39:08.901] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:39:08.914] [INFO] console - [32m[2013-05-22 15:39:08.913] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:39:08.957] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:39:08.958] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:39:21.282] [INFO] console - 111111&111111
+[2013-05-22 15:39:21.283] [INFO] console - connector-server-1
+[2013-05-22 15:39:21.283] [INFO] console - [Function]
+[2013-05-22 15:39:21.292] [ERROR] console -  Caught exception: TypeError: Cannot call method 'pushMessage' of undefined
+    at GameRemote.leave (/home/noonnightstorm/codings/nodejs/love-game/game-server/app/servers/game/remote/gameRemote.js:40:10)
+    at Object.module.exports.route (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:31:10)
+    at /usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:16:16
+    at processMsg (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:87:15)
+    at Socket.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:44:9)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/usr/lib/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-22 15:40:40.305] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:40:40.788] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:40:40.800] [INFO] console - [32m[2013-05-22 15:40:40.799] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:40:40.843] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:40:40.844] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:41:31.975] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - application inited: "game-server-1"
+[2013-05-22 15:41:32.488] [INFO] console - info: 'socket.io started'
+[2013-05-22 15:41:32.501] [INFO] console - [32m[2013-05-22 15:41:32.500] [INFO] /usr/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "game", "127.0.0.1", 3005
+[2013-05-22 15:41:32.547] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" enter after start...
+[2013-05-22 15:41:32.548] [INFO] /usr/lib/node_modules/pomelo/lib/application.js - "game-server-1" finish start
+[2013-05-22 15:41:42.513] [INFO] console - 111111&111111
+[2013-05-22 15:41:42.513] [INFO] console - connector-server-1
+[2013-05-22 15:41:42.513] [INFO] console - channel
+[2013-05-22 15:41:42.513] [INFO] console - { name: 'channel',
+  groups: { 'connector-server-1': [ '111111&111111' ] },
+  records: { '111111&111111': { sid: 'connector-server-1', uid: '111111&111111' } },
+  __channelService__: 
+   { app: 
+      { init: [Function],
+        getBase: [Function],
+        filter: [Function],
+        before: [Function],
+        after: [Function],
+        load: [Function],
+        loadConfig: [Function],
+        route: [Function],
+        start: [Function],
+        afterStart: [Function],
+        stop: [Function],
+        set: [Function],
+        get: [Function],
+        enabled: [Function],
+        disabled: [Function],
+        enable: [Function],
+        disable: [Function],
+        configure: [Function],
+        registerAdmin: [Function],
+        getMaster: [Function],
+        getCurServer: [Function],
+        getServerId: [Function],
+        getServerType: [Function],
+        getServers: [Function],
+        getServersFromConfig: [Function],
+        getServerTypes: [Function],
+        getServerById: [Function],
+        getServerFromConfig: [Function],
+        getServersByType: [Function],
+        isFrontend: [Function],
+        isBackend: [Function],
+        isMaster: [Function],
+        addServers: [Function],
+        removeServers: [Function],
+        loaded: [Object],
+        components: [Object],
+        settings: [Object],
+        event: [Object],
+        serverId: 'game-server-1',
+        serverType: 'game',
+        curServer: [Object],
+        master: [Object],
+        servers: [Object],
+        serverTypeMaps: [Object],
+        serverTypes: [Object],
+        env: 'development',
+        main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+        state: 3,
+        localSessionService: [Object],
+        channelService: [Circular],
+        rpc: [Getter],
+        sysrpc: [Getter],
+        rpcInvoke: [Function] },
+     channels: { channel: [Circular] },
+     broadcastFilter: undefined,
+     name: '__channel__' },
+  state: 0 }
+[2013-05-22 15:42:42.310] [INFO] console - 111111&111111
+[2013-05-22 15:42:42.310] [INFO] console - connector-server-1
+[2013-05-22 15:42:42.310] [INFO] console - channel
+[2013-05-22 15:42:42.310] [INFO] console - { name: 'channel',
+  groups: { 'connector-server-1': [ '123456&123456', '111111&111111' ] },
+  records: 
+   { '123456&123456': { sid: 'connector-server-1', uid: '123456&123456' },
+     '111111&111111': { sid: 'connector-server-1', uid: '111111&111111' } },
+  __channelService__: 
+   { app: 
+      { init: [Function],
+        getBase: [Function],
+        filter: [Function],
+        before: [Function],
+        after: [Function],
+        load: [Function],
+        loadConfig: [Function],
+        route: [Function],
+        start: [Function],
+        afterStart: [Function],
+        stop: [Function],
+        set: [Function],
+        get: [Function],
+        enabled: [Function],
+        disabled: [Function],
+        enable: [Function],
+        disable: [Function],
+        configure: [Function],
+        registerAdmin: [Function],
+        getMaster: [Function],
+        getCurServer: [Function],
+        getServerId: [Function],
+        getServerType: [Function],
+        getServers: [Function],
+        getServersFromConfig: [Function],
+        getServerTypes: [Function],
+        getServerById: [Function],
+        getServerFromConfig: [Function],
+        getServersByType: [Function],
+        isFrontend: [Function],
+        isBackend: [Function],
+        isMaster: [Function],
+        addServers: [Function],
+        removeServers: [Function],
+        loaded: [Object],
+        components: [Object],
+        settings: [Object],
+        event: [Object],
+        serverId: 'game-server-1',
+        serverType: 'game',
+        curServer: [Object],
+        master: [Object],
+        servers: [Object],
+        serverTypeMaps: [Object],
+        serverTypes: [Object],
+        env: 'development',
+        main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+        state: 3,
+        localSessionService: [Object],
+        channelService: [Circular],
+        rpc: [Getter],
+        sysrpc: [Getter],
+        rpcInvoke: [Function] },
+     channels: { channel: [Circular] },
+     broadcastFilter: undefined,
+     name: '__channel__' },
+  state: 0 }
+[2013-05-22 15:42:47.400] [INFO] console - 123456&123456
+[2013-05-22 15:42:47.403] [INFO] console - connector-server-1
+[2013-05-22 15:42:47.403] [INFO] console - channel
+[2013-05-22 15:42:47.403] [INFO] console - { name: 'channel',
+  groups: { 'connector-server-1': [ '123456&123456' ] },
+  records: { '123456&123456': { sid: 'connector-server-1', uid: '123456&123456' } },
+  __channelService__: 
+   { app: 
+      { init: [Function],
+        getBase: [Function],
+        filter: [Function],
+        before: [Function],
+        after: [Function],
+        load: [Function],
+        loadConfig: [Function],
+        route: [Function],
+        start: [Function],
+        afterStart: [Function],
+        stop: [Function],
+        set: [Function],
+        get: [Function],
+        enabled: [Function],
+        disabled: [Function],
+        enable: [Function],
+        disable: [Function],
+        configure: [Function],
+        registerAdmin: [Function],
+        getMaster: [Function],
+        getCurServer: [Function],
+        getServerId: [Function],
+        getServerType: [Function],
+        getServers: [Function],
+        getServersFromConfig: [Function],
+        getServerTypes: [Function],
+        getServerById: [Function],
+        getServerFromConfig: [Function],
+        getServersByType: [Function],
+        isFrontend: [Function],
+        isBackend: [Function],
+        isMaster: [Function],
+        addServers: [Function],
+        removeServers: [Function],
+        loaded: [Object],
+        components: [Object],
+        settings: [Object],
+        event: [Object],
+        serverId: 'game-server-1',
+        serverType: 'game',
+        curServer: [Object],
+        master: [Object],
+        servers: [Object],
+        serverTypeMaps: [Object],
+        serverTypes: [Object],
+        env: 'development',
+        main: '/home/noonnightstorm/codings/nodejs/love-game/game-server/app.js',
+        state: 3,
+        localSessionService: [Object],
+        channelService: [Circular],
+        rpc: [Getter],
+        sysrpc: [Getter],
+        rpcInvoke: [Function] },
+     channels: { channel: [Circular] },
+     broadcastFilter: undefined,
+     name: '__channel__' },
+  state: 0 }
